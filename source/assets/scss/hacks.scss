@@ -1,0 +1,10 @@
+//HOME PAGE TEPLATE
+body.home,
+body.search,
+body.archive,
+body.error404{
+	a{
+		color: 					_palette(activetheme,color-2);
+		border-bottom: 			1px dashed _palette(activetheme,color-2);
+	}
+}

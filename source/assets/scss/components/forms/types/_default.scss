@@ -1,0 +1,405 @@
+
+
+//Override 2016 WONK
+
+fieldset{
+	border:1px solid darken(_palette(activetheme,color-4),10%);
+}
+
+pre, 
+abbr, 
+acronym,
+input[type="date"], 
+input[type="time"], 
+input[type="datetime-local"], 
+input[type="week"], 
+input[type="month"], 
+input[type="text"], 
+input[type="email"], 
+input[type="url"], 
+input[type="password"], 
+input[type="search"], 
+input[type="tel"], 
+input[type="number"], 
+textarea,
+select {
+	border:1px solid lighten(_palette(activetheme,color-4),30%);
+	color:black;
+	&:focus{
+		border-color:green;
+		color:black;
+	}
+}
+
+
+
+.contact-form {
+	@include clearfix;
+	fieldset {
+		margin: 24px 0;
+	}
+
+	legend {
+		padding-bottom: 10px;
+		margin-bottom: 36px;
+		border-bottom: 1px solid #c0c0c0;
+	}
+
+	div {
+		/* form element wrapper */
+		position: relative;
+		margin: 20px 0;
+	}
+
+	h4, .contact-label {
+		color: darken(_palette(activetheme,color-4), 30%);
+		margin-bottom: 10px;
+	}
+
+	.contact-label {
+		display: block;
+	}
+
+	input, textarea, {
+		color: _palette(activetheme,color-4);
+	}
+
+	input[type="text"], 
+	input[type="email"], 
+	textarea, 
+	select,
+	legend {
+		display: block;
+		width: 100%;
+		appearance: none;
+	}
+
+	input[type="text"], 
+	input[type="email"],
+	textarea, 
+	select {
+		/* general style for input elements */
+		padding: 12px;
+		background-color: #f7f7f7 linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)) repeat scroll 0 0;
+		border-radius: .25em;
+	}
+
+	.contact-select {
+		/* select element wapper */
+		position: relative;
+
+		&::after {
+			/* arrow icon for select element */
+			content: '';
+			position: absolute;
+			z-index: 1;
+			right: 16px;
+			top: 50%;
+			margin-top: -8px;
+
+			display: block;
+			width: 16px;
+			height: 16px;
+
+			background: url('assets/images/icons/contact-icon-arrow.svg') no-repeat center center;
+			pointer-events: none;
+		}
+	}
+
+	select {
+		box-shadow: 0 0px 0px rgba(#000, .08);
+		cursor: pointer;
+	}
+
+	select::-ms-expand {
+		display: none;
+	}
+
+	.contact-form-list {
+		margin-top: 16px;
+		@include clearfix;
+	}
+
+	.contact-form-list li {
+		/* wrapper for radio and checkbox input types */
+		display: inline-block;
+		position: relative;
+		user-select: none;
+		margin: 0 26px 16px 0;
+		float: left;
+	}
+
+	input[type=radio],
+	input[type=checkbox] {
+		/* hide original check and radio buttons */
+		position: absolute;
+		left: 0;
+		top: 50%;
+		transform: translateY(-50%);
+		margin: 0;
+		padding: 0;
+		opacity: 0;
+		z-index: 2;
+	}
+
+	input[type="radio"] + label, 
+	input[type="checkbox"] + label {
+		padding-left: 24px;
+	}
+
+	input[type="radio"] + label::before,
+	input[type="radio"] + label::after,
+	input[type="checkbox"] + label::before,
+	input[type="checkbox"] + label::after {
+		/* custom radio and check boxes */
+		content: '';
+		display: block;
+		position: absolute;
+		left: 0;
+		top: 50%;
+		margin-top: -8px;
+		width: 16px;
+		height: 16px;
+	}
+
+	input[type="radio"] + label::before,
+	input[type="checkbox"] + label::before {
+		border: 1px solid darken(_palette(activetheme,color-2), 10%);
+		background: _palette(activetheme,color-1);
+		box-shadow: inset 0 1px 1px rgba(#000, .08);
+	}
+
+	input[type="radio"] + label::before,
+	input[type="radio"] + label::after {
+		border-radius: 50%;
+	}
+
+	input[type="checkbox"] + label::before,
+	input[type="checkbox"] + label::after {
+		border-radius: .25em;
+	}
+
+	input[type="radio"] + label::after,
+	input[type="checkbox"] + label::after {
+		background-color: _palette(activetheme,color-2);
+		background-position: center center;
+		background-repeat: no-repeat;
+		box-shadow: 0 0 5px rgba(_palette(activetheme,color-2), .4);
+		display: none;
+	}
+
+	input[type="radio"] + label::after {
+		/* custom image for radio button */
+		background-image: url('assets/images/icons/contact-icon-radio.svg');
+	}
+
+	input[type="checkbox"] + label::after {
+		/* custom image for checkbox */
+		background-image: url('assets/images/icons/contact-icon-check.svg');
+	}
+
+	input[type="radio"]:focus + label::before,
+	input[type="checkbox"]:focus + label::before {
+		/* add focus effect for radio and check buttons */
+		box-shadow: 0 0 5px rgba(_palette(activetheme,color-2), .6);
+	}
+
+	input[type="radio"]:checked + label::after,
+	input[type="checkbox"]:checked + label::after {
+		display: block;
+	}
+
+	input[type="radio"]:checked + label::before,
+	input[type="radio"]:checked + label::after,
+	input[type="checkbox"]:checked + label::before,
+	input[type="checkbox"]:checked + label::after {
+		animation: bounce 0.3s;
+	}
+
+	textarea {
+		min-height: 200px;
+		resize: vertical;
+		overflow: auto;
+	}
+
+	input[type="submit"] {
+		/* button style */
+		border: none;
+		background: _palette(activetheme,color-2);
+		border-radius: .25em;
+		padding: 16px 20px;
+		color: _palette(activetheme,color-0);
+		font-weight: bold;
+		float: right;
+		cursor: pointer;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+		appearance: none;
+
+		.no-touch &:hover {
+			background: lighten(_palette(activetheme,color-2), 5%);
+		}
+
+		&:focus {
+			outline: none;
+			background: _palette(activetheme,color-2);
+		}
+
+		&:active {
+			transform: scale(0.9);
+		}
+	}
+
+	[required] {
+		background-color: #fff!important;
+		background: url('assets/images/icons/contact-icon-required.svg') no-repeat top right;
+	}
+
+	.error-message p {
+		background: _palette(activetheme,color-5);
+		color: _palette(activetheme,color-1);
+		text-align: center;
+		@include font-smoothing;
+		border-radius: .25em;
+		padding: 16px;
+	}
+
+	.error {
+		border-color: _palette(activetheme,color-0) !important;
+	}
+
+	@include MQ(M) {
+		div {
+			/* form element wrapper */
+			margin: 32px 0;
+		}
+
+			legend + div {
+			/* reduce margin-top for first form element after the legend */
+			margin-top: 20px;
+		}
+
+		h4, .contact-label {
+			margin-bottom: 10px;
+		}
+
+		input[type="text"], 
+		input[type="email"], 
+		textarea, 
+		select {
+			padding: 16px;
+		}
+	}
+}
+
+@keyframes bounce {
+	0%, 100% {
+		transform: scale(1);
+	}
+
+	50% {
+		transform: scale(0.8);
+	}
+}
+
+/* -------------------------------- 
+
+Custom icons
+
+-------------------------------- */
+
+.contact-form {
+	.icon input, .icon select, .icon textarea {
+		padding-left: 54px !important;
+	}
+
+	.user {
+		
+		background: url('assets/images/icons/contact-icon-user.svg') no-repeat 16px center ;
+	}
+
+	[required].user {
+		
+		background: url('assets/images/icons/contact-icon-user.svg') no-repeat 16px center, 
+					url('assets/images/icons/contact-icon-required.svg') no-repeat top right;
+	}
+
+	.company {
+		background: url('assets/images/icons/contact-icon-company.svg') no-repeat 16px center;
+	}
+
+	[required].company {
+		background: url('assets/images/icons/contact-icon-company.svg') no-repeat 16px center, 
+					url('assets/images/icons/contact-icon-required.svg') no-repeat top right;
+	}
+
+	.email {
+		background: url('assets/images/icons/contact-icon-email.svg') no-repeat 16px center;
+	}
+
+	[required].email {
+		background: url('assets/images/icons/contact-icon-email.svg') no-repeat 16px center, 
+					url('assets/images/icons/contact-icon-required.svg') no-repeat top right;
+	}
+
+	.budget {
+		background: url('assets/images/icons/contact-icon-budget.svg') no-repeat 16px center;
+	}
+
+	.message {
+		background: url('assets/images/icons/contact-icon-message.svg') no-repeat 16px 16px;
+	}
+
+	[required].message {
+		background: url('assets/images/icons/contact-icon-message.svg') no-repeat 16px 16px, 
+					url('assets/images/icons/contact-icon-required.svg') no-repeat top right;
+	}
+}
+
+/* -------------------------------- 
+
+FLoating labels 
+
+-------------------------------- */
+
+.js .floating-labels {
+	div {
+		margin: 40px 0;
+	}
+
+	.contact-label {
+		position: absolute;
+		top: 12px;
+		left: 12px;
+		cursor: text;
+		transition: top 0.2s, left 0.2s, font-size 0.2s;
+	}
+
+	.icon .contact-label {
+		left: 56px;
+	}
+
+	.contact-label.float {
+		/* move label out the input field */
+		font-size: 1.2rem;
+		top: -27px;
+		left: 0 !important;
+	}
+
+	@include MQ(M) {
+
+		legend + div {
+			/* reduce margin-top for first form element after the legend */
+			margin-top: 16px;
+		}
+
+		.contact-label {
+			top: 20px;
+		}
+	}
+}
+
+
+input[type="submit"]{
+	font-family: 					_font(family)!important;
+}

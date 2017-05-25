@@ -1,0 +1,28 @@
+.project {
+	background-size: cover;
+	background-position: 50% 50%;
+	&:nth-child(1) {
+		background-image: url("assets/images/fulls/image-1.jpg");	
+	}
+	&:nth-child(2) {
+		background-image: url("assets/images/fulls/image-2.jpg");	
+	}
+	&:nth-child(3) {
+		background-image: url("assets/images/fulls/image-3.jpg");	
+	}
+	&:nth-child(4) {
+		background-image: url("assets/images/fulls/image-4.jpg");
+	}
+	&:nth-child(5) {
+		background-image: url("assets/images/fulls/image-5.jpg");	
+	}
+	&:nth-child(6) {
+		background-image: url("assets/images/fulls/image-6.jpg");	
+	}
+	&:nth-child(7) {
+		background-image: url("assets/images/fulls/image-7.jpg");	
+	}
+	&:nth-child(8) {
+		background-image: url("assets/images/fulls/image-8.jpg");
+	}
+}

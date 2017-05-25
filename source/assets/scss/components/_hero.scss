@@ -1,0 +1,18 @@
+.hero {
+	background-image: 								url("assets/images/mediums/image-7.jpg");
+	background-size: 								cover;
+	background-position: 							50% 50%;
+	.hero__inner{
+		@include centerer;
+		.hero__copy{
+			color:									_palette(activetheme,color-1);
+			background-color: 						transparentize(_palette(activetheme,color-4),0.4);
+			@include headings {
+				color: 								_palette(activetheme,color-1);
+				&::after{
+					background: 					_palette(activetheme,color-1) none repeat scroll 0 0;
+				}
+			}
+		}
+	}
+}

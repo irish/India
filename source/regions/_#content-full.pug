@@ -1,0 +1,29 @@
+#primary.content-area-full
+	main#main.site-main(role='main')
+		article.post-701.page.type-page.status-publish.has-post-thumbnail.hentry
+			header.entry-header
+				h1.entry-title.mega-header|Article Header
+			.post-thumbnail
+				img(src="assets/images/mediums/image-1.jpg" class="" alt="" width="" height="")
+			.entry-content
+				h1.mega-header|Mega Header
+				//- include ../inc/_#cards.pug
+				//- include ../inc/_#forms.pug
+				include ../inc/_#typography.pug
+				include ../inc/_#tabs.pug
+				//- include ../inc/_#links.pug
+				include ../inc/_#buttons.pug
+		include ../inc/_#comments.pug
+	aside#content-bottom-widgets.content-bottom-widgets(role='complementary')
+		.widget-area
+			section#text-5.widget.widget_text
+				h2.widget-title Content Bottom 1
+			.textwidget
+				p| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+				p| Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		.widget-area
+			section#text-5.widget.widget_text
+				h2.widget-title Content Bottom 2
+			.textwidget
+				p| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+				p| Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.

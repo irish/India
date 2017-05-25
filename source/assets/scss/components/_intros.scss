@@ -1,0 +1,25 @@
+#wave{
+	background-image:url(assets/images/ip/header-branding.svg);
+	background-repeat: no-repeat;
+	background-position: 50% 80%;
+	background-size: cover;
+	border-bottom: 0;
+	padding-bottom: 300px;
+	border-bottom:		1px solid #dcdcdc;
+}
+
+#sem-intro{
+	background-image: url(assets/images/ip/sem-left.svg),url(assets/images/ip/sem-right.svg);
+	background-repeat: no-repeat,no-repeat;
+	background-size: 30% auto, 30% auto;
+	background-position: 0 center, 100% center;
+	border-bottom:		1px solid #dcdcdc;
+}
+
+#about-intro{
+	background-image: url(assets/images/ip/about-left.svg),url(assets/images/ip/about-right.svg);
+	background-repeat: no-repeat,no-repeat;
+	background-size: 30% auto, 30% auto;
+	background-position: 0 center, 100% center;
+	border-bottom:		1px solid #dcdcdc;
+}

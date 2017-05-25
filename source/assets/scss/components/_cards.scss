@@ -1,0 +1,53 @@
+//WONK
+// @media screen and (min-width: 40em) {
+// 	.cards {
+// 		display: flex;
+// 		flex-wrap: wrap;
+// 		justify-content: space-between;
+// 	}
+// 	.card {
+// 		flex: 0 1 calc(50% - 1em);
+// 	}
+// }
+// @media screen and (min-width: 80em) {
+// 	.card {
+// 		flex: 0 1 calc(25% - 1em);
+// 	}
+// }
+
+.card{
+	background-color: _palette(activetheme,color-1);
+	transition: width .1s ease-in-out,box-shadow 300ms ease-in-out 0s;
+	position: relative;
+	.card__copy{
+		//background-color: transparentize(_palette(activetheme,color-1),0.1);
+		// &:after{
+		// 	content: "\f260";
+		// 	font-family: FontAwesome;
+		// 	position: relative;
+		// 	left:50%;
+		// 	color:_palette(header);
+		// }
+		h3{
+			&:first-child{
+				margin-top: 0;
+			}
+		}
+		p{
+			&:last-child{
+				margin-bottom: 0;
+			}
+		}
+	}
+}
+
+
+.card__media{
+	margin-right: 0!important;
+	margin-bottom: 1em;
+	img{
+		position: relative;
+		display: block;
+	}
+}
+

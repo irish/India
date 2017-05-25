@@ -1,0 +1,44 @@
+/* ==========================================================================
+HEADER BLOCK BOX MODEL PROPERTIES
+========================================================================== */	
+
+
+@lost gutter 1em;
+
+.site-header{
+	width:							100%;//WONK HEADER IS FIXED
+	top:							0;
+	padding: 						0 $lost-gutter;
+}
+
+.site-branding,
+.site-header-menu,
+.menu-toggle{
+	margin-top: 					$lost-gutter;
+	margin-bottom: 					$lost-gutter;
+}
+
+.site-header-menu{
+	margin: 						$lost-gutter 0;	
+}
+
+.site-branding a{
+	margin-left:					7px;
+}
+#site-header-menu li{
+	padding-right:					$lost-gutter;
+}
+
+.header-image{
+	lost-column:					1/1;
+	top:							0;
+}
+
+.subtitle{
+	display:none;
+}
+
+.main-navigation{
+	top:							$lost-gutter;
+	position: relative;
+}

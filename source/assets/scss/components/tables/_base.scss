@@ -1,0 +1,10 @@
+/*
+* Base Table Style
+*
+* The default values for the .tab class
+*/
+
+thead th{
+	color:				_palette(activetheme,color-1);
+	background-color:	_palette(activetheme,color-0);
+}

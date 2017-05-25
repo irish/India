@@ -1,0 +1,21 @@
+/* ==========================================================================
+SITE HEADER MENU
+========================================================================== */
+
+#site-header-menu{
+	.main-navigation a{
+		color:		_palette(activetheme, color-2);
+	}
+	.main-navigation a:hover, .main-navigation a:focus{
+		color:		_palette(activetheme, color-5);
+	}
+}
+
+#site-header-menu a{
+	border-bottom:	none;
+}
+
+
+
+
+

@@ -1,0 +1,186 @@
+/* ==========================================================================
+Map(s):	typography($font)
+Almost declarations MUST use $font map. Some exceptions will exist.
+========================================================================== */	
+
+/* ==========================================================================
+HTML FONT SIZE
+========================================================================== */	
+
+html {
+	font-size: 							_font(size-small);
+	@include MQ(MW) {
+		font-size: 						_font(size-medium);
+	}
+	@include MQ(LW) {
+		font-size: 						_font(size);
+	}
+}
+
+/* ==========================================================================
+FONT ATTRIBUTES
+========================================================================== */	
+body{
+	font-family: 						_font(family);
+	font-weight: 						_font(weight);
+	letter-spacing: 					_font(kerning);
+	line-height: 						_font(line-height);
+	@include font-smoothing;
+}
+
+#intro,
+.hero,
+#intro-ultra,
+.entry-header,
+.entry-content,
+.comments-area,
+.staff,
+.price_card,
+button,
+.widget{
+	@include headings {
+		font-family: 					_font(family-alt);
+		font-weight: 					_font(weight-extrabold);
+		letter-spacing: 				_font(kerning-alt);
+		line-height: 					_font(line-height);
+		text-transform: 				_font(header-text-transform);
+		hyphens: 						none;
+		margin-bottom: 					_size(margin-bottom);
+		&::after{
+			background: 				_palette(activetheme,color-3) none repeat scroll 0 0;
+			content: " ";
+			display: block;
+			height: 2px;
+			margin-top: 15px;
+			width: 30px;
+		}
+		&.widget-title{
+			font-family: 					_font(family-alt);
+			font-weight: 					_font(weight-light);
+			letter-spacing: 				_font(kerning);
+			line-height: 					_font(line-height);
+			text-transform: 				_font(header-text-transform);
+			hyphens: 						none;
+		}
+	}
+}
+
+#generic-statement{
+	@include headings {
+		font-family: 					_font(family-alt);
+		font-weight: 					_font(weight-extrabold);
+		letter-spacing: 				_font(kerning-alt);
+		line-height: 					_font(line-height);
+		text-transform: 				_font(header-text-transform);
+		hyphens: 						none;
+		margin-bottom: 					_size(margin-bottom);
+	}
+}
+span.name{
+		font-family: 					_font(family-alt);
+		font-weight: 					_font(weight-extrabold);
+		letter-spacing: 				_font(kerning-alt);
+		line-height: 					_font(line-height);
+		text-transform: 				_font(header-text-transform);
+		hyphens: 						none;
+		margin-bottom: 					_size(margin-bottom);
+	}
+
+.site-title{
+	&::after{
+			background: 					_palette(activetheme,color-3) none repeat scroll 0 0;
+			content: 						" ";
+			display: 						block;
+			height: 						2px;
+			margin-top: 					_size(margin-top)/2;
+			width: 							30px;
+		}
+}
+
+.site-title,
+#site-header-menu li,
+.comment-form label,
+input,
+select,
+textarea{
+	font-family: 					_font(family);
+}
+
+
+.hero .mega-header,
+.entry-header .mega-header,
+.entry-content .mega-header{
+	font-size: 						_font(mega-small);
+	@include MQ(MW){
+		font-size: 					_font(mega-medium);
+	}
+	@include MQ(LW){
+		font-size: 					_font(mega-large);
+	}
+}
+
+
+strong, b {
+	font-weight: 					_font(weight-bold);
+}
+
+em, i {
+	font-style: 					italic;
+}
+
+p {
+	margin: 						0 0 21px;
+	hyphens: 						none;
+}
+
+//use <pre><code> for block code that must not wrap
+pre {
+	white-space: 					pre-wrap;
+	line-height: 					_font(line-height);
+	background-color: 				black;
+}
+
+//use <code> for inline code that can wrap
+code{
+	font-family: 					_font(family-fixed);
+	font-size: 						_font(size-small);
+	font-weight: 					_font(weight-bold);
+	white-space:					normal;
+	background-color: 				black;
+}
+
+
+blockquote{
+	font-family: 					_font(family);
+	font-weight: 					_font(weight-light);
+	font-style: 					italic;
+	font-size: 						_font(size-large);
+	margin-left: 					0px;
+	letter-spacing: 				-.014em;
+	border-left:					2px solid _palette(activetheme,color-2);
+	box-shadow: 					0px 0px 2px rgba(0,0,0,0.3) inset;
+	background-color: 				transparentize(_palette(activetheme,color-2),0.9);
+	padding: 						21px;
+	text-align: 					right;
+	cite{
+		font-size: 					_font(size-large);
+	}
+	footer cite a{
+		font-size: 					1rem
+	}
+
+}
+
+sub{
+	top: 							0.5em;
+}
+
+sup{
+	top: 							-0.5em;
+}
+
+sub,sup {
+	font-size: 						_font(size-small);
+	position: 						relative;
+	
+}

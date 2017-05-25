@@ -1,0 +1,25 @@
+//- home.pug
+	The template for displaying the home
+
+	This is the template that displays all pages by default.
+	Please note that this is the WordPress construct of pages
+	and that other 'pages' on your WordPress site may use a
+	different template.
+doctype html
+html(lang="en")
+	head
+		title India: Home
+		meta(charset='utf-8')
+		meta(http-equiv='x-ua-compatible', content='ie=edge')
+		meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+		include inc/_#meta.pug
+		link(rel='stylesheet', href='style.css')
+	body.home.page-template-default.page.page-id-00.group-blog
+		div#page.site.animsition
+			.site-inner
+				include _#header-fixed.pug
+				#content.site-content
+					.constrain
+						include template-parts/_#content-page.pug
+						include _#sidebar.pug
+				include _#footer.pug

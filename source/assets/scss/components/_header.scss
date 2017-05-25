@@ -1,0 +1,25 @@
+/* ==========================================================================
+SITE HEADER
+========================================================================== */	
+.site-header{
+	border-bottom:		1px solid transparentize(_palette(activetheme,color-1),0.8);
+	z-index:			9999;
+	.site-description {
+		@include MQ(MW) {
+			display: 					block;
+		}
+	}
+}
+
+.menu-toggle {
+	color:				_palette(activetheme,color-x);
+	&:hover{
+		cursor:			pointer;
+		color: 			darken(_palette(activetheme,color-4), 10%);
+		border-color: 	darken(_palette(activetheme,color-4), 10%);
+	}
+	&:focus {
+		color:			_palette(activetheme,color-4);
+		border-color:	_palette(activetheme,color-4);
+	}
+}

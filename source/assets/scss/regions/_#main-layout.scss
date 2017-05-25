@@ -1,0 +1,798 @@
+/* ==========================================================================
+   BOX MODEL PROPERTIES FOR THE PAGE MAIN AREA: WIDTH, HEIGHT, MARGIN, PADDING
+   ========================================================================== */
+
+@lost gutter 2em;
+
+
+/* ==========================================================================
+GENERIC CONTAINER
+========================================================================== */	
+
+.constrain{
+	lost-center:					$theme-center;
+	padding: 						$lost-gutter;
+	&.fixed-above{
+		margin-top: 				($lost-gutter * 2.34);
+	}
+	@include MQ(MW){
+		padding: 						$lost-gutter * 3 $lost-gutter ;
+		&.fixed-above{
+			margin-top: 				($lost-gutter * 5);
+		}
+	}
+	@include MQ(LW){
+		padding: 						$lost-gutter * 2 $lost-gutter ;
+	}
+}
+
+/* ==========================================================================
+INTRO BLOCK
+========================================================================== */	
+
+#intro{
+	lost-center: 					100%;
+	.contain{
+		lost-center: 					100%;
+	}
+	.full{
+		lost-column:1/1;
+	}	
+	div.half{
+		lost-column:1/1;
+		margin-bottom: 2em;
+		img{
+			margin-bottom: 1em;
+		}
+	}
+	.duo {
+		lost-center: 					100%;
+		div{
+			lost-column:1/2;
+		}
+	}
+}
+
+#intro.gt650 {
+	div.half{
+		lost-column:1/2;
+	}
+}
+
+/* ==========================================================================
+INTRO ULTRA
+========================================================================== */	
+
+#intro-ultra{
+	h1{
+		font-size: 2em;
+		font-weight: bold;
+	}
+}
+#intro-ultra.gt450{
+	h1{
+		font-size: 4em;
+		font-weight: bold;
+	}	
+}
+#intro-ultra.gt800{
+	h1{
+		font-size: 5em;
+		font-weight: bold;
+	}	
+}
+
+/* ==========================================================================
+HERO BLOCK
+========================================================================== */	
+
+.hero{
+	height:30vh;
+	min-height: 250px;
+	position: 						relative;
+	&.fixed-above{
+		margin-top: 				($lost-gutter * 2.34);
+	}
+	.hero__inner{
+		lost-center:				$theme-center;
+		width: 95%;
+		.hero__copy{
+			lost-column:			1/1;
+			padding:				$lost-gutter;
+		}
+	}
+	@include MQ(MW){
+		height:70vh;
+		&.fixed-above{
+			margin-top: 				($lost-gutter * 3);
+		}
+		.hero__inner{
+			.hero__copy{
+				padding:				$lost-gutter;
+			}
+		}
+	}
+	@include MQ(LW){
+		height:99vh;
+		.hero__inner{
+			.hero__copy{
+				padding:				$lost-gutter;
+			}
+		}
+	}
+}
+
+
+
+/* ==========================================================================
+MAIN BLOCK CONTENT BOX MODEL PROPERTIES
+========================================================================== */	
+
+.site-main > article{
+	margin-bottom: 0;
+}
+
+.site-content{
+	padding: 						0;
+	.entry-header{
+		margin: 0 $lost-gutter 0 0;
+	}
+	article{
+		header, 
+		.post-thumbnail,
+		.entry-content{
+			margin-left: 			0;
+			margin-right: 			0;
+		}
+	}
+}
+
+.content-area,
+.sidebar{
+	lost-column:					1/1;
+}
+
+.comments-area,
+.content-bottom-widgets{
+	margin: 						0;
+}
+
+.comments-area{
+	margin-bottom: 					21px;
+}
+
+.entry-summary, .entry-content, .entry-footer, .page-content{
+	margin:							$lost-gutter 0;
+}
+
+#content{
+		margin-top:					($lost-gutter * 2.2);
+		&.fixed-above{
+			margin-top: 			($lost-gutter * 2.33);
+		}
+	}
+
+@include MQ(MW) {
+	#content{
+		margin-top:					($lost-gutter * 2.2);
+		&.fixed-above{
+			margin-top: 			($lost-gutter * 3);
+		}
+	}
+	.content-area{
+		lost-column:				3/4;
+	}
+	.sidebar{
+		lost-column:				1/4;
+		margin-left: 				0;
+	}
+}
+@include MQ(LW) {
+	.content-area{
+		lost-column:				3/4;
+	}
+	.sidebar{
+		lost-column:				1/4;
+		margin-left: 				0;
+	}
+}
+
+
+
+
+
+/* ==========================================================================
+MAGAZINE BLOCK BOX MODEL PROPERTIES
+========================================================================== */	
+
+.magazine{
+	lost-center: 					100%;
+	&.fixed-above{
+		margin-top: 				($lost-gutter * 2.0);
+	}
+	article{
+		lost-masonry-column: 		1/2 0px;
+		/*HERO*/
+		.hero__copy{
+			p,a.button{
+				display: 			none;
+			}
+		}
+	}
+}
+
+@include MQ(MW){
+	.magazine{
+		&.fixed-above{
+			margin-top: 				($lost-gutter * 2.6);
+		}
+		article{
+			lost-masonry-column: 	1/2 0px;
+			/*HERO*/
+			.hero__copy{
+				p{
+					display: 		block;
+				}
+				a.button{
+					display: 		inline-block;
+				}
+			}
+		}
+	}
+}
+
+@include MQ(LW){
+	.magazine{	
+		article:nth-child(odd){
+			lost-masonry-column: 	2/3 0px;
+		}
+	
+		article:nth-child(even){
+			lost-masonry-column: 	1/3 0px;
+		}
+	}
+}
+
+/* ==========================================================================
+MEGA INTRO
+========================================================================== */	
+
+#mega-intro{
+	lost-center:					$theme-center;
+	margin-top: 					($lost-gutter * 6);
+	padding: 						21px;
+}
+
+/* ==========================================================================
+SIMPLE GRID
+========================================================================== */	
+
+.simple {
+	lost-center:					100%;
+	background: 					#ff6347;
+	section{
+		border:						1px dashed #d1cfca;
+		background-color: 			#f6f4ee;
+	}
+	section:hover{
+		background-color: 			#cae0f4;
+		outline: 					1px dashed #4f97da;
+		cursor: 					pointer;
+	}
+	section{
+		lost-column:				1/1;
+	}
+}
+
+@include MQ(MW){
+	.simple {
+		section{
+			lost-column:			1/2;
+		}
+	}
+}
+
+@include MQ(LW){
+	.simple {
+		section{
+			lost-column:			1/3;
+		}
+	}
+}
+
+/* ==========================================================================
+STAFF GRID
+========================================================================== */	
+
+.staff{
+	lost-center: 					100%;
+	&.fixed-above{
+		margin-top: 				($lost-gutter * 2.0);
+	}
+	section{
+		lost-masonry-column: 		1/2 11px;
+		margin-bottom: 2em;
+	}
+}
+
+@include MQ(MW) {
+	.staff{
+		section{
+			lost-masonry-column: 		1/4 11px;
+			margin-bottom: 2em;
+		}
+	}	
+}
+
+/* ==========================================================================
+VARYING GRID
+========================================================================== */	
+
+.varying{
+	lost-center:					100%;
+	background: 					#ff6347;
+	section{
+		border:						1px dashed #d1cfca;
+		background-color: 			#f6f4ee;
+	}
+	section:hover{
+		background-color: 			#cae0f4;
+		outline: 					1px dashed #4f97da;
+		cursor: 					pointer;
+	}
+	section{
+		lost-column:				1/1;	
+	}
+	section:nth-child(-n+3){
+		lost-column:				1/3 3;
+	}
+	section:nth-child(4),
+	section:nth-child(5){
+		lost-column:				1/2 5;
+	}
+	section:nth-child(6),
+	section:nth-child(7),
+	section:nth-child(8),
+	section:nth-child(9),
+	section:nth-child(10),{
+		lost-column:				1/5 10;
+	}
+}
+
+/* ==========================================================================
+WAFFLE GRID
+========================================================================== */	
+
+.waffle{
+	lost-center:					100%;
+	section{
+		lost-waffle:				1/1;
+	}
+}
+
+@include MQ(MW){
+.waffle{
+	section{
+		lost-waffle:				1/3;
+		}	
+	}
+}
+
+.waffle{
+	@include MQ(LW){
+	section{
+		lost-waffle:				1/3;
+		}	
+	}
+}
+
+/* ==========================================================================
+FEATURE GRID
+========================================================================== */	
+.feature{
+	lost-center:					100%;
+	section{
+		lost-column:1/1;
+		img{
+			margin-left: auto;
+	margin-right: auto;
+	display: block;
+		}
+	}
+}
+@include MQ(MW){
+.feature{
+	lost-center:					100%;
+		section{
+			lost-column:1/2;
+			img{
+				margin-left: auto;
+	margin-right: auto;
+	display: block;
+			}
+		}
+	}	
+}
+
+/* ==========================================================================
+PRICING TABLE
+========================================================================== */	
+
+.price_card{
+	lost-column:1/3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+START GRID
+========================================================================== */	
+
+
+.g{
+	section	{
+		outline:1px dashed gray;
+		background-color: #E2E6EB;
+		height: 400px;
+		margin-bottom: 	$lost-gutter;
+	}
+}
+
+/* ==========================================================================
+g- is our fallback definition. We use advanced selector to target element
+class that "start" with "g-"
+========================================================================== */	
+
+div[class^="g-"]{
+	section{
+		lost-column:	1/1;
+	}
+}
+
+/* ==========================================================================
+#g-0
+========================================================================== */	
+/*.g-0{
+	section{
+		lost-column:1/1;
+	}
+}*/
+
+
+/* ==========================================================================
+#g-1
+========================================================================== */
+
+
+
+.g-1{
+	@include MQ(MW){
+		section{
+			lost-column:1/2;
+		}
+	}
+}
+
+.gt800.lt899{
+	.g-1{
+		section{
+			lost-column:1/3;
+		}
+	}	
+}
+/* ==========================================================================
+#g-2
+========================================================================== */	
+.g-2{
+	@include MQ(MW){
+		section:first-child{
+			lost-column:1/1;
+		}
+		section{
+			lost-column:1/2 3;	
+		}
+	}
+}
+
+/* ==========================================================================
+#g-3
+========================================================================== */	
+.g-3{
+	section{
+		lost-column:1/2;
+	}
+}
+
+/* ==========================================================================
+#g-4
+========================================================================== */	
+.g-4{
+	section{
+		lost-column:1/1;
+	}
+}
+
+/* ==========================================================================
+#g-5
+========================================================================== */	
+.g-5{
+	section{
+		lost-column:1/1;
+	}
+	@include MQ(MW){
+		section{
+			lost-column:1/3;
+		}
+	}
+}
+
+/* ==========================================================================
+#g-6
+========================================================================== */	
+.g-6{
+	section{
+		lost-column:1/1;
+	}
+	@include MQ(MW){
+		section:first-child{
+			lost-column:2/3;
+		}
+		section:last-child{
+			lost-column:1/3;
+		}
+	}
+}
+
+/* ==========================================================================
+#g-7
+========================================================================== */	
+.g-7{
+	section{
+		lost-column:1/1;
+		&:nth-child(odd){
+			div{
+				height: 100%;
+				&:nth-child(odd){
+					background-color: red;
+					lost-column:2/3;
+				}
+				&:nth-child(even){
+					background-color: green;
+					lost-column:1/3;
+				}
+			}
+		}
+		&:nth-child(even){
+			div{
+				height: 100%;
+				&:nth-child(odd){
+					background-color: yellow;
+					lost-column:1/3;
+				}
+				&:nth-child(even){
+					background-color: blue;
+					lost-column:2/3;
+				}
+			}
+		}
+	}
+	@include MQ(MW){
+		section{
+			lost-column:1/4;
+			&:nth-child(odd){
+			div{
+				&:nth-child(odd){
+					background-color: red;
+					height:70%;
+					margin-bottom:$lost-gutter;
+					lost-column:1/1;
+
+				}
+				&:nth-child(even){
+					background-color: green;
+					height:30%;
+					lost-column:1/1;
+				}
+			}
+		}
+		&:nth-child(even){
+			div{
+				&:nth-child(odd){
+					background-color: yellow;
+					height:30%;
+					margin-bottom:$lost-gutter;
+					lost-column:1/1;
+				}
+				&:nth-child(even){
+					background-color: blue;
+					height:70%;
+					lost-column:1/1;
+				}
+			}
+		}
+		}
+	}
+}
+
+/* ==========================================================================
+#g-8
+========================================================================== */	
+.g-8{
+	section{
+		lost-column:1/2;
+		&:nth-last-child(1):nth-child(odd) {
+			lost-column:1/1;
+		}
+	}
+	@include MQ(MW){
+		section{
+			lost-column:1/3;
+			&:nth-last-child(1):nth-child(odd) {//USAGE DEPENDS ON MARKUP
+				lost-column:1/3;
+			}
+			&:nth-last-child(1):nth-child(even) {
+				lost-column:1/3;
+			}
+		}
+	}
+	@include MQ(LW){
+		section{
+			lost-column:1/4;
+			&:nth-last-child(1):nth-child(odd) {
+				lost-column:1/1;
+			}
+			&:nth-last-child(1):nth-child(even) {
+				lost-column:3/4;
+			}
+		}
+	}
+}
+
+/* ==========================================================================
+#g-9
+========================================================================== */	
+.g-9{
+	section{
+		lost-column:1/1;
+		height:33vh;
+	}
+}
+
+/* ==========================================================================
+#g-10
+========================================================================== */	
+.g-10{
+	section{
+		lost-column:1/1;
+		height:25vh;
+	}
+	@include MQ(MW){
+		section{
+			lost-column:1/4;
+			height:99vh;
+		}
+	}
+}
+
+/* ==========================================================================
+#g-11
+========================================================================== */	
+.g-11{
+	section{
+		lost-column:1/1;
+		height:99vh;
+	}
+	@include MQ(MW){
+		section{
+			&:first-child{
+				lost-column:1/3;
+			}
+			&:last-child{
+				lost-column:2/3;
+			}
+		}
+	}
+}
+
+/* ==========================================================================
+#g-12
+========================================================================== */	
+.g-12{
+	section{
+		lost-column:1/4;
+		height:24.7vh;
+	}
+}
+
+/* ==========================================================================
+#g-13
+========================================================================== */	
+.g-13{
+	section{
+		height:24.5vh;
+	}
+}
+
+/* ==========================================================================
+#g-14
+========================================================================== */	
+.g-14{
+	section{
+		&:first-child{
+			lost-column:2/3 2;
+		}
+		&:nth-child(n+4){
+			lost-column:1/3;
+		}
+	}
+}

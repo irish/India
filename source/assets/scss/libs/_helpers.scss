@@ -1,0 +1,113 @@
+.align-left {
+	text-align: 					left;
+}
+
+.align-center {
+	text-align: 					center;
+}
+
+.align-right {
+	text-align: 					right;
+}
+
+.thin{
+	font-weight: 					300;
+}
+
+.opaque{
+	opacity: 						0;
+}
+
+.hidden{
+	display:						none;
+}
+
+.centered{
+	text-align: 					center;
+}
+
+.not-on-phone{
+	display: 						none;
+	@include MQ(MW){
+		display:					block;
+	}
+}
+
+//dev mode
+.region{
+	background-color:transparentize(red,0.9);
+}
+.partial{
+	background-color:green;
+}
+
+//system cursor
+.is-loading{
+	cursor:				wait;
+}
+
+//strip colors
+.desaturate{
+	-webkit-filter: 	grayscale(1);
+	-webkit-filter: 	grayscale(100%);
+	filter: 			grayscale(100%);
+	filter: 			gray;
+}
+
+//exaggerated shadow
+.mega-shadow{
+	box-shadow:			0 2px 8px 2px rgba(68, 73, 76, 0.2);
+	overflow: 			visible;
+	z-index: 			9998;
+	position: 			relative;
+}
+
+[class^="imghvr-"] figcaption, [class*=" imghvr-"] figcaption{
+	background: #ee1a3e;
+    background: linear-gradient(to right, #F66B00, #FF9401);
+}
+
+[class^="imghvr-"] figcaption h1, [class^="imghvr-"] figcaption h2, [class^="imghvr-"] figcaption h3, [class^="imghvr-"] figcaption h4, [class^="imghvr-"] figcaption h5, [class^="imghvr-"] figcaption h6, [class*=" imghvr-"] figcaption h1, [class*=" imghvr-"] figcaption h2, [class*=" imghvr-"] figcaption h3, [class*=" imghvr-"] figcaption h4, [class*=" imghvr-"] figcaption h5, [class*=" imghvr-"] figcaption h6{
+	&::after{
+			background: #fff none repeat scroll 0 0;
+			content: " ";
+			display: block;
+			height: 2px;
+			margin-top: 15px;
+			width: 30px;
+		}
+}
+
+.res{
+	position: fixed;
+	bottom:0;
+	left:0;
+	padding: 4px;
+	background-color: _palette(activetheme,color-4);
+	color:_palette(activetheme,color-5);
+	font-size: 13px;
+	font-family: _font(family-fixed);
+	font-weight: _font(weight-bold);
+}
+
+.ripple:after {
+	content: "";
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	pointer-events: none;
+	background-image: radial-gradient(circle, #000 10%, transparent 10.01%);
+	background-repeat: no-repeat;
+	background-position: 50%;
+	transform: scale(10, 10);
+	opacity: 0;
+	transition: transform .5s, opacity 1s;
+}
+.ripple:active:after {
+	transform: scale(0, 0);
+	opacity: .2;
+	transition: 0s;
+}

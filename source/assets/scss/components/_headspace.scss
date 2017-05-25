@@ -1,0 +1,21 @@
+/* ==========================================================================
+HEADROOM
+========================================================================== */	
+.headroom{
+	position: 			fixed;//HEADROOM WONK
+	border-bottom:		1px solid #dcdcdc;
+}
+
+.headroom{
+	will-change: 		transform;
+	transition: 		transform 400ms linear;
+}
+
+.headroom--pinned {
+	border-bottom:1px solid #dcdcdc;
+	transform: 			translateY(0%);
+}
+
+.headroom--unpinned {
+	transform: 			translateY(-100%);
+}
