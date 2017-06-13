@@ -23,3 +23,8 @@ SITE HEADER
 		border-color:	_palette(activetheme,color-4);
 	}
 }
+
+
+.site-header-menu.toggled-on{
+	background-color: rgba(255,255,255,0.98);
+}

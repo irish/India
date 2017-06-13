@@ -17,10 +17,10 @@
 		},
 	"\/gulpfile.js": {
 		"ft": 64,
-		"mi": 0,
-		"oA": 1,
+		"mi": 1,
+		"oA": 0,
 		"oAP": "\/build\/gulpfile.js",
-		"oF": 1,
+		"oF": 0,
 		"sC": 0,
 		"tS": 0
 		},
@@ -107,9 +107,9 @@
 		},
 	"\/source\/assets\/artboard.xd": {
 		"ft": 8192,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/build\/assets\/artboard.xd",
-		"oF": 0
+		"oF": 1
 		},
 	"\/source\/assets\/icons\/social media\/app-store-apple-symbol.svg": {
 		"ft": 2097152,
@@ -2194,7 +2194,7 @@
 		},
 	"\/source\/assets\/js\/app.js": {
 		"ft": 64,
-		"mi": 0,
+		"mi": 1,
 		"oA": 0,
 		"oAP": "\/build\/assets\/js\/app.js",
 		"oF": 0,
@@ -2203,7 +2203,7 @@
 		},
 	"\/source\/assets\/js\/ie\/html5shiv.js": {
 		"ft": 64,
-		"mi": 0,
+		"mi": 1,
 		"oA": 0,
 		"oAP": "\/build\/assets\/js\/ie\/html5shiv.js",
 		"oF": 0,
@@ -2212,7 +2212,7 @@
 		},
 	"\/source\/assets\/js\/ie\/respond.min-min.js": {
 		"ft": 64,
-		"mi": 0,
+		"mi": 1,
 		"oA": 0,
 		"oAP": "\/build\/assets\/js\/ie\/respond.min-min.js",
 		"oF": 0,
@@ -2221,7 +2221,7 @@
 		},
 	"\/source\/assets\/js\/ie\/respond.min.js": {
 		"ft": 64,
-		"mi": 0,
+		"mi": 1,
 		"oA": 0,
 		"oAP": "\/build\/assets\/js\/ie\/respond.min.js",
 		"oF": 0,
@@ -2230,7 +2230,7 @@
 		},
 	"\/source\/assets\/js\/libs.js": {
 		"ft": 64,
-		"mi": 0,
+		"mi": 1,
 		"oA": 0,
 		"oAP": "\/build\/assets\/js\/libs.js",
 		"oF": 0,
@@ -2239,7 +2239,7 @@
 		},
 	"\/source\/assets\/js\/libs\/jquery.simpleWeather.min.js": {
 		"ft": 64,
-		"mi": 0,
+		"mi": 1,
 		"oA": 0,
 		"oAP": "\/build\/assets\/js\/libs\/jquery.simpleWeather.min.js",
 		"oF": 0,
@@ -2248,7 +2248,7 @@
 		},
 	"\/source\/assets\/js\/libs\/jquery.viewportchecker.min.js": {
 		"ft": 64,
-		"mi": 0,
+		"mi": 1,
 		"oA": 0,
 		"oAP": "\/build\/assets\/js\/libs\/jquery.viewportchecker.min.js",
 		"oF": 0,
@@ -2257,7 +2257,7 @@
 		},
 	"\/source\/assets\/js\/libs\/modaal.js": {
 		"ft": 64,
-		"mi": 0,
+		"mi": 1,
 		"oA": 0,
 		"oAP": "\/build\/assets\/js\/libs\/modaal.js",
 		"oF": 0,
@@ -2266,7 +2266,7 @@
 		},
 	"\/source\/assets\/js\/libs\/nanobar.js": {
 		"ft": 64,
-		"mi": 0,
+		"mi": 1,
 		"oA": 0,
 		"oAP": "\/build\/assets\/js\/libs\/nanobar.js",
 		"oF": 0,
@@ -2275,7 +2275,7 @@
 		},
 	"\/source\/assets\/js\/libs\/owl.carousel.min.js": {
 		"ft": 64,
-		"mi": 0,
+		"mi": 1,
 		"oA": 0,
 		"oAP": "\/build\/assets\/js\/libs\/owl.carousel.min.js",
 		"oF": 0,
@@ -2284,7 +2284,7 @@
 		},
 	"\/source\/assets\/js\/libs\/parallax.min.js": {
 		"ft": 64,
-		"mi": 0,
+		"mi": 1,
 		"oA": 0,
 		"oAP": "\/build\/assets\/js\/libs\/parallax.min.js",
 		"oF": 0,
@@ -2293,7 +2293,7 @@
 		},
 	"\/source\/assets\/js\/libs\/responsive-elements.js": {
 		"ft": 64,
-		"mi": 0,
+		"mi": 1,
 		"oA": 0,
 		"oAP": "\/build\/assets\/js\/libs\/responsive-elements.js",
 		"oF": 0,
@@ -2302,7 +2302,7 @@
 		},
 	"\/source\/assets\/js\/libs\/select.js": {
 		"ft": 64,
-		"mi": 0,
+		"mi": 1,
 		"oA": 0,
 		"oAP": "\/build\/assets\/js\/libs\/select.js",
 		"oF": 0,
@@ -2311,7 +2311,7 @@
 		},
 	"\/source\/assets\/js\/libs\/shave.min.js": {
 		"ft": 64,
-		"mi": 0,
+		"mi": 1,
 		"oA": 0,
 		"oAP": "\/build\/assets\/js\/libs\/shave.min.js",
 		"oF": 0,
@@ -2320,7 +2320,7 @@
 		},
 	"\/source\/assets\/js\/libs\/simple-lightbox.min.js": {
 		"ft": 64,
-		"mi": 0,
+		"mi": 1,
 		"oA": 0,
 		"oAP": "\/build\/assets\/js\/libs\/simple-lightbox.min.js",
 		"oF": 0,
@@ -2329,7 +2329,7 @@
 		},
 	"\/source\/assets\/js\/main.js": {
 		"ft": 64,
-		"mi": 0,
+		"mi": 1,
 		"oA": 0,
 		"oAP": "\/build\/assets\/js\/main.js",
 		"oF": 0,
@@ -2338,7 +2338,7 @@
 		},
 	"\/source\/assets\/js\/wp.js": {
 		"ft": 64,
-		"mi": 0,
+		"mi": 1,
 		"oA": 0,
 		"oAP": "\/build\/assets\/js\/wp.js",
 		"oF": 0,
@@ -2355,7 +2355,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/components\/_breadcrumbs.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/components\/_button-v1.scss": {
@@ -2368,7 +2368,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/components\/_button-v1.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/components\/_buttons.scss": {
@@ -2381,7 +2381,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/components\/_buttons.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/components\/_cards-price.scss": {
@@ -2394,7 +2394,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/components\/_cards-price.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/components\/_cards.scss": {
@@ -2407,7 +2407,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/components\/_cards.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/components\/_forms.scss": {
@@ -2420,7 +2420,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/components\/_forms.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/components\/_header.scss": {
@@ -2433,7 +2433,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/components\/_header.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/components\/_headroom.scss": {
@@ -2446,20 +2446,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/components\/_headroom.css",
 		"oF": 1,
-		"oS": 3,
-		"uL": 1
-		},
-	"\/source\/assets\/scss\/components\/_headspace.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/build\/assets\/scss\/components\/_headspace.css",
-		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/components\/_hero.scss": {
@@ -2472,7 +2459,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/components\/_hero.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/components\/_intros.scss": {
@@ -2485,7 +2472,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/_intros.css",
 		"oF": 0,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/components\/_list.scss": {
@@ -2498,7 +2485,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/components\/_list.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/components\/_modaal.scss": {
@@ -2511,7 +2498,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/components\/_modaal.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/components\/_pagination.scss": {
@@ -2524,7 +2511,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/components\/_pagination.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/components\/_project.scss": {
@@ -2537,7 +2524,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/components\/_project.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/components\/_scratch.scss": {
@@ -2550,7 +2537,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/_scratch.css",
 		"oF": 0,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/components\/_site-branding.scss": {
@@ -2563,7 +2550,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/components\/_site-branding.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/components\/_site-header-menu.scss": {
@@ -2576,7 +2563,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/components\/_site-header-menu.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/components\/_tables.scss": {
@@ -2589,7 +2576,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/components\/_tables.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/components\/_tabs.scss": {
@@ -2602,7 +2589,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/components\/_tabs.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/components\/_widget.scss": {
@@ -2615,7 +2602,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/components\/_widget.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/components\/base\/_links.scss": {
@@ -2628,7 +2615,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/components\/base\/_links.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/components\/base\/_page.scss": {
@@ -2641,7 +2628,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/components\/base\/_page.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/components\/base\/_print.scss": {
@@ -2654,7 +2641,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/components\/base\/_print.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/components\/base\/_reset.scss": {
@@ -2667,7 +2654,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/components\/base\/_reset.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/components\/base\/_typography.scss": {
@@ -2680,7 +2667,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/components\/base\/_typography.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/components\/base\/_utilities.scss": {
@@ -2693,7 +2680,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/components\/base\/_utilities.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/components\/buttons\/_base.scss": {
@@ -2706,7 +2693,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/components\/buttons\/_base.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/components\/buttons\/_layout.scss": {
@@ -2719,7 +2706,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/components\/buttons\/_layout.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/components\/buttons\/_mixins.scss": {
@@ -2732,7 +2719,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/components\/buttons\/_mixins.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/components\/buttons\/_options.scss": {
@@ -2745,7 +2732,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/components\/buttons\/_options.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/components\/buttons\/types\/_2016.scss": {
@@ -2758,7 +2745,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/components\/buttons\/types\/_2016.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/components\/buttons\/types\/_3d.scss": {
@@ -2771,7 +2758,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/components\/buttons\/types\/_3d.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/components\/buttons\/types\/_border.scss": {
@@ -2784,7 +2771,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/components\/buttons\/types\/_border.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/components\/buttons\/types\/_borderless.scss": {
@@ -2797,7 +2784,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/components\/buttons\/types\/_borderless.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/components\/buttons\/types\/_dropdown.scss": {
@@ -2810,7 +2797,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/components\/buttons\/types\/_dropdown.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/components\/buttons\/types\/_glow.scss": {
@@ -2823,7 +2810,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/components\/buttons\/types\/_glow.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/components\/buttons\/types\/_groups.scss": {
@@ -2836,7 +2823,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/components\/buttons\/types\/_groups.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/components\/buttons\/types\/_longshadow.scss": {
@@ -2849,7 +2836,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/components\/buttons\/types\/_longshadow.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/components\/buttons\/types\/_raised.scss": {
@@ -2862,7 +2849,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/components\/buttons\/types\/_raised.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/components\/buttons\/types\/_shapes.scss": {
@@ -2875,7 +2862,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/components\/buttons\/types\/_shapes.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/components\/buttons\/types\/_sizes.scss": {
@@ -2888,7 +2875,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/components\/buttons\/types\/_sizes.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/components\/buttons\/types\/_wrapper.scss": {
@@ -2901,7 +2888,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/components\/buttons\/types\/_wrapper.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/components\/forms\/_base.scss": {
@@ -2914,7 +2901,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/components\/forms\/_base.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/components\/forms\/_layout.scss": {
@@ -2927,7 +2914,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/components\/forms\/_layout.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/components\/forms\/_mixins.scss": {
@@ -2940,7 +2927,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/components\/forms\/_mixins.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/components\/forms\/_options.scss": {
@@ -2953,7 +2940,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/components\/forms\/_options.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/components\/forms\/types\/_default.scss": {
@@ -2966,7 +2953,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/components\/forms\/types\/_default.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/components\/tables\/_base.scss": {
@@ -2979,7 +2966,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/components\/tables\/_base.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/components\/tables\/_layout.scss": {
@@ -2992,7 +2979,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/components\/tables\/_layout.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/components\/tables\/_mixins.scss": {
@@ -3005,7 +2992,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/components\/tables\/_mixins.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/components\/tables\/_options.scss": {
@@ -3018,7 +3005,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/components\/tables\/_options.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/components\/tables\/types\/_default.scss": {
@@ -3031,7 +3018,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/components\/tables\/types\/_default.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/components\/tables\/types\/_pricing.scss": {
@@ -3044,7 +3031,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/components\/tables\/types\/_pricing.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/components\/tables\/types\/_table-sorter.scss": {
@@ -3057,7 +3044,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/components\/tables\/types\/_table-sorter.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/components\/tabs\/_base.scss": {
@@ -3070,7 +3057,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/components\/tabs\/_base.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/components\/tabs\/_layout.scss": {
@@ -3083,7 +3070,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/components\/tabs\/_layout.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/components\/tabs\/_mixins.scss": {
@@ -3096,7 +3083,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/components\/tabs\/_mixins.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/components\/tabs\/_options.scss": {
@@ -3109,7 +3096,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/components\/tabs\/_options.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/components\/tabs\/types\/_default.scss": {
@@ -3122,7 +3109,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/components\/tabs\/types\/_default.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/components\/ui\/_page-back-to-top.scss": {
@@ -3135,7 +3122,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/components\/ui\/_page-back-to-top.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/components\/ui\/_page-length-indicator.scss": {
@@ -3148,7 +3135,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/components\/ui\/_page-length-indicator.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/components\/ui\/_page-nanobar.scss": {
@@ -3161,7 +3148,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/components\/ui\/_page-nanobar.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/components\/ui\/_page-scroll-indicator.scss": {
@@ -3174,7 +3161,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/components\/ui\/_page-scroll-indicator.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/components\/widget\/_base.scss": {
@@ -3187,7 +3174,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/components\/widget\/_base.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/components\/widget\/_layout.scss": {
@@ -3200,7 +3187,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/components\/widget\/_layout.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/components\/widget\/_mixins.scss": {
@@ -3213,7 +3200,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/components\/widget\/_mixins.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/components\/widget\/_options.scss": {
@@ -3226,7 +3213,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/components\/widget\/_options.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/components\/widget\/types\/_calendar.scss": {
@@ -3239,7 +3226,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/components\/widget\/types\/_calendar.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/components\/widget\/types\/_text.scss": {
@@ -3252,7 +3239,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/components\/widget\/types\/_text.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/hacks.scss": {
@@ -3265,20 +3252,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/hacks.css",
 		"oF": 1,
-		"oS": 3,
-		"uL": 1
-		},
-	"\/source\/assets\/scss\/layout-grid.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/build\/assets\/scss\/layout-grid.css",
-		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/libs\/_animsition.scss": {
@@ -3291,7 +3265,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/libs\/_animsition.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/libs\/_classes.scss": {
@@ -3304,7 +3278,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/libs\/_classes.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/libs\/_functions.scss": {
@@ -3317,7 +3291,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/libs\/_functions.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/libs\/_genericons.scss": {
@@ -3330,7 +3304,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/libs\/_genericons.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/libs\/_gradients.scss": {
@@ -3343,7 +3317,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/libs\/_gradients.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/libs\/_helpers.scss": {
@@ -3356,7 +3330,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/libs\/_helpers.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/libs\/_imagehover.scss": {
@@ -3369,7 +3343,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/libs\/_imagehover.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/libs\/_mixins.scss": {
@@ -3382,7 +3356,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/libs\/_mixins.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/libs\/_normalize.scss": {
@@ -3395,7 +3369,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/libs\/_normalize.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/libs\/_reset.scss": {
@@ -3408,7 +3382,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/_reset.css",
 		"oF": 0,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/libs\/_simplelightbox.scss": {
@@ -3421,7 +3395,20 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/libs\/_simplelightbox.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/source\/assets\/scss\/libs\/_syntax-highlighter.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/build\/assets\/_syntax-highlighter.css",
+		"oF": 0,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/libs\/_vars-bak.scss": {
@@ -3434,7 +3421,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/libs\/_vars-bak.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/libs\/_vars.scss": {
@@ -3447,7 +3434,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/libs\/_vars.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/libs\/cssgram\/1977.scss": {
@@ -3460,7 +3447,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/libs\/cssgram\/1977.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/libs\/cssgram\/_base.scss": {
@@ -3473,7 +3460,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/libs\/cssgram\/_base.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/libs\/cssgram\/_shared.scss": {
@@ -3486,7 +3473,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/libs\/cssgram\/_shared.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/libs\/cssgram\/aden.scss": {
@@ -3499,7 +3486,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/libs\/cssgram\/aden.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/libs\/cssgram\/brannan.scss": {
@@ -3512,7 +3499,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/libs\/cssgram\/brannan.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/libs\/cssgram\/brooklyn.scss": {
@@ -3525,7 +3512,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/libs\/cssgram\/brooklyn.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/libs\/cssgram\/clarendon.scss": {
@@ -3538,7 +3525,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/libs\/cssgram\/clarendon.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/libs\/cssgram\/cssgram.scss": {
@@ -3551,7 +3538,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/libs\/cssgram\/cssgram.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/libs\/cssgram\/earlybird.scss": {
@@ -3564,7 +3551,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/libs\/cssgram\/earlybird.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/libs\/cssgram\/gingham.scss": {
@@ -3577,7 +3564,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/libs\/cssgram\/gingham.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/libs\/cssgram\/hudson.scss": {
@@ -3590,7 +3577,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/libs\/cssgram\/hudson.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/libs\/cssgram\/inkwell.scss": {
@@ -3603,7 +3590,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/libs\/cssgram\/inkwell.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/libs\/cssgram\/kelvin.scss": {
@@ -3616,7 +3603,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/libs\/cssgram\/kelvin.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/libs\/cssgram\/lark.scss": {
@@ -3629,7 +3616,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/libs\/cssgram\/lark.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/libs\/cssgram\/lofi.scss": {
@@ -3642,7 +3629,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/libs\/cssgram\/lofi.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/libs\/cssgram\/maven.scss": {
@@ -3655,7 +3642,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/libs\/cssgram\/maven.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/libs\/cssgram\/mayfair.scss": {
@@ -3668,7 +3655,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/libs\/cssgram\/mayfair.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/libs\/cssgram\/moon.scss": {
@@ -3681,7 +3668,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/libs\/cssgram\/moon.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/libs\/cssgram\/nashville.scss": {
@@ -3694,7 +3681,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/libs\/cssgram\/nashville.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/libs\/cssgram\/perpetua.scss": {
@@ -3707,7 +3694,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/libs\/cssgram\/perpetua.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/libs\/cssgram\/reyes.scss": {
@@ -3720,7 +3707,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/libs\/cssgram\/reyes.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/libs\/cssgram\/rise.scss": {
@@ -3733,7 +3720,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/libs\/cssgram\/rise.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/libs\/cssgram\/slumber.scss": {
@@ -3746,7 +3733,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/libs\/cssgram\/slumber.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/libs\/cssgram\/stinson.scss": {
@@ -3759,7 +3746,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/libs\/cssgram\/stinson.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/libs\/cssgram\/toaster.scss": {
@@ -3772,7 +3759,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/libs\/cssgram\/toaster.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/libs\/cssgram\/valencia.scss": {
@@ -3785,7 +3772,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/libs\/cssgram\/valencia.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/libs\/cssgram\/walden.scss": {
@@ -3798,7 +3785,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/libs\/cssgram\/walden.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/libs\/cssgram\/willow.scss": {
@@ -3811,7 +3798,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/libs\/cssgram\/willow.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/libs\/cssgram\/xpro2.scss": {
@@ -3824,7 +3811,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/libs\/cssgram\/xpro2.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/libs\/wordpress-mod\/2016\/base\/_accessibility.scss": {
@@ -3837,7 +3824,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/libs\/wordpress-mod\/2016\/base\/_accessibility.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/libs\/wordpress-mod\/2016\/base\/_alignments.scss": {
@@ -3850,7 +3837,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/libs\/wordpress-mod\/2016\/base\/_alignments.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/libs\/wordpress-mod\/2016\/base\/_base.scss": {
@@ -3863,7 +3850,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/libs\/wordpress-mod\/2016\/base\/_base.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/libs\/wordpress-mod\/2016\/base\/_captions.scss": {
@@ -3876,7 +3863,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/libs\/wordpress-mod\/2016\/base\/_captions.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/libs\/wordpress-mod\/2016\/base\/_clearings.scss": {
@@ -3889,7 +3876,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/libs\/wordpress-mod\/2016\/base\/_clearings.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/libs\/wordpress-mod\/2016\/base\/_comments.scss": {
@@ -3902,7 +3889,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/libs\/wordpress-mod\/2016\/base\/_comments.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/libs\/wordpress-mod\/2016\/base\/_content.scss": {
@@ -3915,7 +3902,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/libs\/wordpress-mod\/2016\/base\/_content.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/libs\/wordpress-mod\/2016\/base\/_elements.scss": {
@@ -3928,7 +3915,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/libs\/wordpress-mod\/2016\/base\/_elements.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/libs\/wordpress-mod\/2016\/base\/_fonts.scss": {
@@ -3941,7 +3928,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/libs\/wordpress-mod\/2016\/base\/_fonts.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/libs\/wordpress-mod\/2016\/base\/_footer.scss": {
@@ -3954,7 +3941,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/libs\/wordpress-mod\/2016\/base\/_footer.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/libs\/wordpress-mod\/2016\/base\/_forms.scss": {
@@ -3967,7 +3954,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/libs\/wordpress-mod\/2016\/base\/_forms.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/libs\/wordpress-mod\/2016\/base\/_gallery.scss": {
@@ -3980,7 +3967,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/libs\/wordpress-mod\/2016\/base\/_gallery.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/libs\/wordpress-mod\/2016\/base\/_header.scss": {
@@ -3993,7 +3980,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/libs\/wordpress-mod\/2016\/base\/_header.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/libs\/wordpress-mod\/2016\/base\/_icons.scss": {
@@ -4006,7 +3993,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/libs\/wordpress-mod\/2016\/base\/_icons.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/libs\/wordpress-mod\/2016\/base\/_links.scss": {
@@ -4019,7 +4006,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/libs\/wordpress-mod\/2016\/base\/_links.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/libs\/wordpress-mod\/2016\/base\/_media.scss": {
@@ -4032,7 +4019,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/libs\/wordpress-mod\/2016\/base\/_media.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/libs\/wordpress-mod\/2016\/base\/_mediaquery.scss": {
@@ -4045,7 +4032,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/libs\/wordpress-mod\/2016\/base\/_mediaquery.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/libs\/wordpress-mod\/2016\/base\/_mediaquery0710.scss": {
@@ -4058,7 +4045,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/libs\/wordpress-mod\/2016\/base\/_mediaquery0710.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/libs\/wordpress-mod\/2016\/base\/_mediaquery0783.scss": {
@@ -4071,7 +4058,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/libs\/wordpress-mod\/2016\/base\/_mediaquery0783.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/libs\/wordpress-mod\/2016\/base\/_mediaquery0910.scss": {
@@ -4084,7 +4071,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/libs\/wordpress-mod\/2016\/base\/_mediaquery0910.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/libs\/wordpress-mod\/2016\/base\/_mediaquery0985.scss": {
@@ -4097,7 +4084,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/libs\/wordpress-mod\/2016\/base\/_mediaquery0985.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/libs\/wordpress-mod\/2016\/base\/_mediaquery1200.scss": {
@@ -4110,7 +4097,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/libs\/wordpress-mod\/2016\/base\/_mediaquery1200.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/libs\/wordpress-mod\/2016\/base\/_menus.scss": {
@@ -4123,7 +4110,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/libs\/wordpress-mod\/2016\/base\/_menus.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/libs\/wordpress-mod\/2016\/base\/_multisites.scss": {
@@ -4136,7 +4123,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/libs\/wordpress-mod\/2016\/base\/_multisites.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/libs\/wordpress-mod\/2016\/base\/_normalize.scss": {
@@ -4149,7 +4136,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/libs\/wordpress-mod\/2016\/base\/_normalize.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/libs\/wordpress-mod\/2016\/base\/_postformats.scss": {
@@ -4162,7 +4149,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/libs\/wordpress-mod\/2016\/base\/_postformats.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/libs\/wordpress-mod\/2016\/base\/_posts.scss": {
@@ -4175,7 +4162,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/libs\/wordpress-mod\/2016\/base\/_posts.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/libs\/wordpress-mod\/2016\/base\/_print.scss": {
@@ -4188,7 +4175,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/libs\/wordpress-mod\/2016\/base\/_print.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/libs\/wordpress-mod\/2016\/base\/_sidebar.scss": {
@@ -4201,7 +4188,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/libs\/wordpress-mod\/2016\/base\/_sidebar.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/libs\/wordpress-mod\/2016\/base\/_typography.scss": {
@@ -4214,7 +4201,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/libs\/wordpress-mod\/2016\/base\/_typography.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/libs\/wordpress-mod\/2016\/base\/_variables.scss": {
@@ -4227,7 +4214,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/libs\/wordpress-mod\/2016\/base\/_variables.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/libs\/wordpress-mod\/2016\/base\/_widgets.scss": {
@@ -4240,7 +4227,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/libs\/wordpress-mod\/2016\/base\/_widgets.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/libs\/wordpress-mod\/2016\/style.scss": {
@@ -4253,7 +4240,20 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/libs\/wordpress-mod\/2016\/style.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/source\/assets\/scss\/lost-grid.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/build\/lost-grid.css",
+		"oF": 1,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/regions\/_#footer-layout.scss": {
@@ -4266,7 +4266,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/regions\/_#footer-layout.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/regions\/_#header-layout.scss": {
@@ -4279,7 +4279,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/regions\/_#header-layout.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/regions\/_#main-layout.scss": {
@@ -4292,7 +4292,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/regions\/_#main-layout.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/regions\/_#page-layout.scss": {
@@ -4305,7 +4305,7 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/regions\/_#page-layout.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/regions\/readme.txt": {
@@ -4806,6 +4806,14 @@
 		"oF": 0,
 		"oS": 1
 		},
+	"\/source\/template-parts\/_#generic-statement.pug": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/build\/template-parts\/_#generic-statement.html",
+		"oF": 0,
+		"oS": 1
+		},
 	"\/source\/template-parts\/_#sidebar-content-bottom.pug": {
 		"cOD": 1,
 		"ft": 512,
@@ -4949,6 +4957,14 @@
 		"oAP": "\/build\/template-parts\/ui\/_#page-scroll-indicator.html",
 		"oF": 0,
 		"oS": 1
+		},
+	"\/source\/vue-style.pug": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/build\/vue-style.html",
+		"oF": 0,
+		"oS": 1
 		}
 	},
 "hooks": [
@@ -4957,10 +4973,10 @@
 	},
 "projectAttributes": {
 	"creationDate": 517166544,
-	"displayValue": "India",
+	"displayValue": "India: Framework v9",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "\/project-icon.png",
-	"lastBuiltDate": 517345938
+	"lastBuiltDate": 518462076
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -6734,7 +6750,7 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"createSourceMap": 0,
-		"minifyOutput": 0,
+		"minifyOutput": 1,
 		"syntaxCheckerStyle": 0,
 		"transpilerStyle": 0
 		},
@@ -6833,7 +6849,7 @@
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
-		"outputStyle": 3,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 1

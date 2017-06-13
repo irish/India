@@ -12,6 +12,7 @@ GENERIC CONTAINER
 .constrain{
 	lost-center:					$theme-center;
 	padding: 						$lost-gutter;
+	lost-utility: 					clearfix;
 	&.fixed-above{
 		margin-top: 				($lost-gutter * 2.34);
 	}

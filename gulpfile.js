@@ -17,8 +17,7 @@ gulp.task('styles', function() {
 		return gulp.src(paths.source + '**/*.scss  ')
 				.pipe(sourcemaps.init())
 				.pipe(postcss(processors))
-				.pipe(concat('layout-grid.scss'))
-				//.pipe(sourcemaps.write('./'))
+				.pipe(concat('lost-grid.scss'))
 				.pipe(gulp.dest(paths.destination));
 });
 

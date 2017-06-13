@@ -28,10 +28,10 @@ video{
 }
 
 pre{
-	padding:						$lost-gutter;
+	padding:						$lost-gutter * 0.5;
+	margin-bottom:					$lost-gutter;
 }
-
 code{
-	margin:							0;
-	padding:						 $lost-gutter * 0.5;
+	padding:						$lost-gutter * 0.5;
+	margin-bottom:					$lost-gutter;
 }

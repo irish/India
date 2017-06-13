@@ -14,8 +14,12 @@ FOOTER BLOCK BOX MODEL PROPERTIES
 @lost gutter 2em;
 
 #colophon{
+	padding: 0;
+	.main-navigation li a{
+		color:#fff;
+	}
 	.site-info{
-		width: 100%;
+		lost-column:1/1;
 		.trio{
 			lost-center:100%;
 			div{

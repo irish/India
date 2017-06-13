@@ -12,8 +12,12 @@ FOOTER BLOCK BOX MODEL PROPERTIES
 ========================================================================== */
 
 #colophon{
+	padding: 0;
+	.main-navigation li a{
+		color:#fff;
+	}
 	.site-info{
-		width: 100%;
+		width: calc(99.9% * 1/1 - (2em - 2em * 1/1));
 		.trio{
 			max-width: 100%;
 			margin-left: auto;
@@ -51,6 +55,81 @@ FOOTER BLOCK BOX MODEL PROPERTIES
 			display: table;
 			clear: both;
 		}
+	}
+	.site-info:nth-child(1n){
+
+		.trio{
+
+			div{}
+		}
+
+		.trio:before{
+
+			div{}
+		}
+
+		.trio:after{
+
+			div{}
+		}
+		float: left;
+		margin-right: 2em;
+		clear: none;
+	}
+	.site-info:last-child{
+
+		.trio{
+
+			div{}
+		}
+
+		.trio:before{
+
+			div{}
+		}
+
+		.trio:after{
+
+			div{}
+		}
+		margin-right: 0;
+	}
+	.site-info:nth-child(1n){
+
+		.trio{
+
+			div{}
+		}
+
+		.trio:before{
+
+			div{}
+		}
+
+		.trio:after{
+
+			div{}
+		}
+		margin-right: 0;
+		float: right;
+	}
+	.site-info:nth-child(1n + 1){
+
+		.trio{
+
+			div{}
+		}
+
+		.trio:before{
+
+			div{}
+		}
+
+		.trio:after{
+
+			div{}
+		}
+		clear: both;
 	}
 	.widget-column{
 		width: calc(99.9% * 1/2 - (2em - 2em * 1/2));
@@ -160,6 +239,35 @@ GENERIC CONTAINER
 	@include MQ(LW){
 		padding: 						2em * 2 2em;
 	}
+}	
+
+.constrain:before{	
+
+	&.fixed-above{}	
+
+	@include MQ(MW){	
+
+		&.fixed-above{}
+	}	
+
+	@include MQ(LW){}
+	content: 						'';
+	display: 						table;
+}	
+
+.constrain:after{	
+
+	&.fixed-above{}	
+
+	@include MQ(MW){	
+
+		&.fixed-above{}
+	}	
+
+	@include MQ(LW){}
+	content: 						'';
+	display: 						table;
+	clear: 						both;
 }	
 
 .constrain:before{	
@@ -2473,10 +2581,10 @@ video{
 }
 
 pre{
-	padding:						2em;
+	padding:						2em * 0.5;
+	margin-bottom:					2em;
 }
-
 code{
-	margin:							0;
-	padding:						 2em * 0.5;
+	padding:						2em * 0.5;
+	margin-bottom:					2em;
 }

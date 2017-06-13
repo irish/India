@@ -5,7 +5,22 @@
 				h1.entry-title
 					a(href="#")|Article Header
 			.post-thumbnail.gallery
-				img(data-src="assets/images/thumbs/image-1.jpg" class="" alt="" width="" height="")
+				img(data-src="assets/images/thumbs/image-2.jpg" class="" alt="" width="" height="")
+				pre(class="brush: css")
+					|.foo{
+					|	color:red;
+					|	display:block;
+					|}
+			#app
+				button(v-if="!loggedIn" v-on:click="logIn")|Login
+				button(v-else @click="logOut")|Log Out
+				|{{msg}}
+				a(v-bind:href="url")|Link 
+				form
+					|Name:
+					input(type="text" v-bind:value="name")
+				div(v-for="interest in interests")
+					p(v-if="selectedInterests > 0" v-model="selectedInterests" v-bind:value="interest")|{{interest}}
 			.entry-content
 				include ../inc/_#typography.pug
 		include _#comments.pug

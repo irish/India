@@ -28,15 +28,16 @@ Text Domain: laura
 @import 'libs/genericons';
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 @import 'libs/helpers';
+@import 'libs/syntax-highlighter';
 @import 'libs/imagehover';
-@import 'libs/cssgram/cssgram';
-@import 'libs/gradients';
+// @import 'libs/cssgram/cssgram';
+// @import 'libs/gradients';
 @import 'libs/animsition';
 @import 'libs/simplelightbox';
 // BASE
 
-@import 'components/base/page';
-@import 'components/base/typography';
+@import 'components/base/page';//ELEMENT COLORS
+@import 'components/base/typography';//TYPOGRAPHY DEFINITIONS
 @import 'components/base/links';
 
 
@@ -84,7 +85,7 @@ Text Domain: laura
 // @import 'components/media-object';
 
 // LAYOUT
-@import 'layout-grid';
+@import 'lost-grid';
 
 // ADDONS
 // @import 'libs/plyr/plyr';
@@ -115,7 +116,7 @@ nav#site-navigation a {
 }
 
 nav#site-navigation a::before {
-		background:#fff;
+		// background:#fff;
 		height:1px;
 		opacity:0.4;
 		content:' ';

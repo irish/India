@@ -8,12 +8,12 @@ HTML FONT SIZE
 ========================================================================== */	
 
 html {
-	font-size: 							_font(size-small);
+	font-size: 							_font(size-medium);
 	@include MQ(MW) {
-		font-size: 						_font(size-medium);
+		font-size: 						_font(size);
 	}
 	@include MQ(LW) {
-		font-size: 						_font(size);
+		font-size: 						_font(size-large);
 	}
 }
 
@@ -46,14 +46,6 @@ button,
 		text-transform: 				_font(header-text-transform);
 		hyphens: 						none;
 		margin-bottom: 					_size(margin-bottom);
-		&::after{
-			background: 				_palette(activetheme,color-3) none repeat scroll 0 0;
-			content: " ";
-			display: block;
-			height: 2px;
-			margin-top: 15px;
-			width: 30px;
-		}
 		&.widget-title{
 			font-family: 					_font(family-alt);
 			font-weight: 					_font(weight-light);
@@ -86,7 +78,7 @@ span.name{
 		margin-bottom: 					_size(margin-bottom);
 	}
 
-.site-title{
+header .site-title{
 	&::after{
 			background: 					_palette(activetheme,color-3) none repeat scroll 0 0;
 			content: 						" ";
@@ -119,6 +111,9 @@ textarea{
 	}
 }
 
+.site-info{
+	text-transform: uppercase;
+}
 
 strong, b {
 	font-weight: 					_font(weight-bold);
@@ -137,8 +132,8 @@ p {
 pre {
 	white-space: 					pre-wrap;
 	line-height: 					_font(line-height);
-	background-color: 				black;
-}
+	margin-bottom: 					1em;
+	color: 							_palette(activetheme,color-0);}
 
 //use <code> for inline code that can wrap
 code{
@@ -146,13 +141,19 @@ code{
 	font-size: 						_font(size-small);
 	font-weight: 					_font(weight-bold);
 	white-space:					normal;
-	background-color: 				black;
+	color: 							_palette(activetheme,color-0);
 }
 
+.syntaxhighlighter{
+	padding: 1em;
+	.toolbar{
+		display:none;
+	}
+}
 
 blockquote{
 	font-family: 					_font(family);
-	font-weight: 					_font(weight-light);
+	font-weight: 					_font(weight-bold);
 	font-style: 					italic;
 	font-size: 						_font(size-large);
 	margin-left: 					0px;

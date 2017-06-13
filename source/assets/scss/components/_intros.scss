@@ -1,25 +1,40 @@
-#wave{
-	background-image:url(assets/images/ip/header-branding.svg);
-	background-repeat: no-repeat;
-	background-position: 50% 80%;
-	background-size: cover;
+/* ==========================================================================
+SITE INTROS
+========================================================================== */	
+.intro{
+	background-repeat: no-repeat,no-repeat;
+	box-shadow: 0 0 2px #dcdcdc inset;
+	padding-bottom: 100px;
 	border-bottom: 0;
-	padding-bottom: 300px;
-	border-bottom:		1px solid #dcdcdc;
+	background-size: cover;
 }
-
-#sem-intro{
-	background-image: url(assets/images/ip/sem-left.svg),url(assets/images/ip/sem-right.svg);
+.intro-style-1{
+	background-image: url([INSET IMAGE PATH HERE]);
+	background-repeat: no-repeat;
+	background-position: 50% 80%;	
+}
+.intro-style-2{
+	background-image: url([INSET LEFT IMAGE PATH HERE]),url([INSET RIGHT IMAGE PATH HERE]);
 	background-repeat: no-repeat,no-repeat;
 	background-size: 30% auto, 30% auto;
 	background-position: 0 center, 100% center;
-	border-bottom:		1px solid #dcdcdc;
 }
-
-#about-intro{
-	background-image: url(assets/images/ip/about-left.svg),url(assets/images/ip/about-right.svg);
+.intro-style-3{
+	background-image: url([INSET LEFT IMAGE PATH HERE]),url([INSET RIGHT IMAGE PATH HERE]);
 	background-repeat: no-repeat,no-repeat;
 	background-size: 30% auto, 30% auto;
-	background-position: 0 center, 100% center;
-	border-bottom:		1px solid #dcdcdc;
+	background-position: 0 60%, 100% 10%;
+}
+.intro-style-4{
+	background-image: url([INSET LEFT IMAGE PATH HERE]),url([INSET RIGHT IMAGE PATH HERE]);
+	background-repeat: no-repeat,no-repeat;
+	background-size: 30% auto, 30% auto;
+	background-position: 5% 0%, 95% 0%;
+	
+}
+.intro-style-5{
+	background-image: url([INSET LEFT IMAGE PATH HERE]),url([INSET RIGHT IMAGE PATH HERE]);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center bottom;
 }

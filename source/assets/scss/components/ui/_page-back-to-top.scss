@@ -21,9 +21,8 @@
 	}
 	span{
 		@include centerer;
-		top:						45%;
+		top:						50%;
 		color:						_palette(activetheme,color-2);
-		font-size:					1.3em;
 	}
 	&.is-visible, &.fade-out, .no-touch &:hover {
 		transition:					opacity .3s 0s, visibility 0s 0s;

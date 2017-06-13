@@ -3,21 +3,16 @@ LINK COLOR
 ========================================================================== */		
 
 a{
-	color: 							_palette(activetheme,color-2);
-	border-bottom: 					1px dashed _palette(activetheme,color-2);
+	border-bottom: 					1px dashed;
 	text-shadow: 					none;
 	text-decoration: 				none;
 	transition:						.5s;
 	&:hover{
-		color: 						_palette(activetheme, color-5);
-		border-bottom: 				1px dashed _palette(activetheme, color-5);
+		border-bottom: 				1px solid;
 	}
-	&:focus{
-		color: 							_palette(activetheme,color-3);
-	}
+
 	&:active{					
-		color: 						darken(_palette(activetheme,color-5),20%);
-		border-bottom: 				1px dashed darken(_palette(activetheme, color-5),20%);
+		border-bottom: 				1px dashed;
 	}
 	&.unstyled{
 		text-decoration: 			none;
@@ -29,86 +24,6 @@ a{
 		}	
 	}
 }
-
-
-
-// @include heading-links {
-// 		color: 							_palette(activetheme,color-2);
-// 		text-decoration: 				underline;
-// 		border-bottom: 					none;
-// 	}
-
-/* ==========================================================================
-LINK COLOR
-========================================================================== */	
-a,
-.menu-toggle:hover,
-.menu-toggle:focus,
-.dropdown-toggle:hover,
-.dropdown-toggle:focus,
-.social-navigation a:hover:before,
-.social-navigation a:focus:before,
-.post-navigation a:hover .post-title,
-.post-navigation a:focus .post-title,
-.tagcloud a:hover,
-.tagcloud a:focus,
-.site-branding .site-title a:hover,
-.site-branding .site-title a:focus,
-.entry-title a:hover,
-.entry-title a:focus,
-.entry-footer a:hover,
-.entry-footer a:focus,
-.comment-metadata a:hover,
-.comment-metadata a:focus,
-.pingback .comment-edit-link:hover,
-.pingback .comment-edit-link:focus,
-.comment-reply-link,
-.comment-reply-link:hover,
-.comment-reply-link:focus,
-.required,
-.site-info a:hover,
-.site-info a:focus,
-.social-navigation a,
-.post-navigation a,
-.pagination a:hover,
-.pagination a:focus,
-.widget-title a,
-.site-branding .site-title a,
-.entry-title a {
-	color: 							_palette(activetheme,color-2);
-}
-
-mark,
-ins,
-.pagination .prev:hover,
-.pagination .prev:focus,
-.pagination .next:hover,
-.pagination .next:focus,
-.widget_calendar tbody a,
-.page-links a:hover,
-.page-links a:focus,
-input[type="date"]:focus,
-input[type="time"]:focus,
-input[type="datetime-local"]:focus,
-input[type="week"]:focus,
-input[type="month"]:focus,
-input[type="text"]:focus,
-input[type="email"]:focus,
-input[type="url"]:focus,
-input[type="password"]:focus,
-input[type="search"]:focus,
-input[type="tel"]:focus,
-input[type="number"]:focus,
-textarea:focus,
-.tagcloud a:hover,
-.tagcloud a:focus,
-.menu-toggle:hover,
-.menu-toggle:focus {
-	color: 							_palette(activetheme,color-1);
-	
-}
-
-
 
 .post-navigation a:hover .post-title,
 .post-navigation a:focus .post-title,
