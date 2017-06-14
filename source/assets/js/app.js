@@ -797,42 +797,42 @@ $(function () {
 SyntaxHighlighter.all()
 
 
-var vm = new Vue({
-	el: '#app',
-	data:{
-		msg: '',
-		loggedIn: false,
-		url: 'https://google.com',
-		name: 'Brian',
-		interests:['Running', 'Cycling']
-	},
-	methods:{
-		logIn: function(){
-			this.loggedIn = true;
-			this.msg = 'Welcome'
-		},
-		logOut: function(){
-			this.loggedIn = false;
-			this.msg = 'See Ya'
-		},
-	}
-});
+// var vm = new Vue({
+// 	el: '#app',
+// 	data:{
+// 		msg: '',
+// 		loggedIn: false,
+// 		url: 'https://google.com',
+// 		name: 'Brian',
+// 		interests:['Running', 'Cycling']
+// 	},
+// 	methods:{
+// 		logIn: function(){
+// 			this.loggedIn = true;
+// 			this.msg = 'Welcome'
+// 		},
+// 		logOut: function(){
+// 			this.loggedIn = false;
+// 			this.msg = 'See Ya'
+// 		},
+// 	}
+// });
 
-new Vue({
-	el: '#styleApp',
-	data: {
-		myFontSize: 12,
-		fancyDiv:{
-			backgroundColor:'lightgrey',
-			padding: '10px'
-		},
-		fancierDiv:{
-			backgroundColor:'green',
-			padding: '10px'
-		}
+// new Vue({
+// 	el: '#styleApp',
+// 	data: {
+// 		myFontSize: 12,
+// 		fancyDiv:{
+// 			backgroundColor:'lightgrey',
+// 			padding: '10px'
+// 		},
+// 		fancierDiv:{
+// 			backgroundColor:'green',
+// 			padding: '10px'
+// 		}
 
-	}
-});
+// 	}
+// });
 //END TEST AREA
 
 /*END Site Specific Functions*/

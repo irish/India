@@ -73,6 +73,14 @@
 		"oAP": "\/build\/.htaccess",
 		"oF": 0
 		},
+	"\/source\/404.pug": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/build\/404.html",
+		"oF": 0,
+		"oS": 1
+		},
 	"\/source\/_#footer.pug": {
 		"cOD": 1,
 		"ft": 512,
@@ -110,6 +118,102 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/artboard.xd",
 		"oF": 1
+		},
+	"\/source\/assets\/favicons\/android-chrome-192x192.png": {
+		"ft": 32768,
+		"iS": 48050,
+		"oA": 2,
+		"oAP": "\/build\/assets\/favicons\/android-chrome-192x192.png",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/source\/assets\/favicons\/android-chrome-384x384.png": {
+		"ft": 32768,
+		"iS": 131165,
+		"oA": 2,
+		"oAP": "\/build\/assets\/favicons\/android-chrome-384x384.png",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/source\/assets\/favicons\/apple-touch-icon.png": {
+		"ft": 32768,
+		"iS": 43575,
+		"oA": 2,
+		"oAP": "\/build\/assets\/favicons\/apple-touch-icon.png",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/source\/assets\/favicons\/browserconfig.xml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/assets\/favicons\/browserconfig.xml",
+		"oF": 1
+		},
+	"\/source\/assets\/favicons\/favicon-16x16.png": {
+		"ft": 32768,
+		"iS": 1480,
+		"oA": 2,
+		"oAP": "\/build\/assets\/favicons\/favicon-16x16.png",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/source\/assets\/favicons\/favicon-32x32.png": {
+		"ft": 32768,
+		"iS": 3102,
+		"oA": 2,
+		"oAP": "\/build\/assets\/favicons\/favicon-32x32.png",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/source\/assets\/favicons\/favicon.ico": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/assets\/favicons\/favicon.ico",
+		"oF": 1
+		},
+	"\/source\/assets\/favicons\/manifest.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/build\/assets\/favicons\/manifest-min.json",
+		"oF": 1,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/source\/assets\/favicons\/mstile-150x150.png": {
+		"ft": 32768,
+		"iS": 25543,
+		"oA": 2,
+		"oAP": "\/build\/assets\/favicons\/mstile-150x150.png",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/source\/assets\/favicons\/safari-pinned-tab.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/build\/assets\/favicons\/safari-pinned-tab.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/source\/assets\/icons\/social media\/app-store-apple-symbol.svg": {
 		"ft": 2097152,
@@ -2327,11 +2431,20 @@
 		"sC": 0,
 		"tS": 0
 		},
-	"\/source\/assets\/js\/main.js": {
+	"\/source\/assets\/js\/script.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/build\/assets\/js\/main.js",
+		"oAP": "\/build\/assets\/js\/script.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/source\/assets\/js\/site-functions.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/build\/assets\/js\/site-functions.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
@@ -4501,6 +4614,14 @@
 		"oF": 0,
 		"oS": 1
 		},
+	"\/source\/offline.pug": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/build\/offline.html",
+		"oF": 0,
+		"oS": 1
+		},
 	"\/source\/page.pug": {
 		"cOD": 1,
 		"ft": 512,
@@ -4789,6 +4910,12 @@
 		"opt": 1,
 		"oT": 1,
 		"q": 100
+		},
+	"\/source\/sitemap.xml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/sitemap.xml",
+		"oF": 0
 		},
 	"\/source\/template-parts\/_#comments.pug": {
 		"cOD": 1,
