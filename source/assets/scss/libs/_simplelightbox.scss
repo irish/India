@@ -6,10 +6,10 @@
 // You can customize Simplelightbox with the following variables:
 
 $sl-font-family: 				_font(family);
-$sl-overlay-background: 		_palette(color-0);
-$sl-navigation-color: 			_palette(color-0);
-$sl-caption-color: 				_palette(color-0);
-$sl-caption-background: 		_palette(color-0);
+$sl-overlay-background: 		_palette(activetheme,color-0);
+$sl-navigation-color: 			_palette(activetheme,color-0);
+$sl-caption-color: 				_palette(activetheme,color-0);
+$sl-caption-background: 		_palette(activetheme,color-0);
 
 $sl-counter-fontsize: 			1.2rem;
 $sl-close-fontsize: 			3rem;
@@ -53,7 +53,7 @@ body.hidden-scroll {
 		padding: 				0;
 		cursor: 				pointer;
 		&:hover {
-			background-color: 	darken(_palette(color-0),2%);
+			background-color: 	darken(_palette(activetheme,color-0),2%);
 		}
 	}
 
@@ -73,7 +73,7 @@ body.hidden-scroll {
 		color: 					$sl-navigation-color;
 		font-size: 				$sl-close-fontsize;
 		&:hover{
-			background-color: 	darken(_palette(color-0),2%);
+			background-color: 	darken(_palette(activetheme,color-0),2%);
 		}
 	}
 
@@ -102,7 +102,7 @@ body.hidden-scroll {
 			z-index: 			1015;
 			font-family: 		$sl-font-family;
 			&:hover{
-				background: 	_palette(color-0x) none repeat scroll 0 0;
+				background: 	_palette(activetheme,color-0) none repeat scroll 0 0;
 			}
 			&:active{
 				transform:		scale(0.9);

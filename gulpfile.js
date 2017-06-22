@@ -8,8 +8,10 @@ var gulp = require('gulp'),
 	htmlmin = require('gulp-htmlmin');
 
 var paths = {
-	source: 'source/assets/scss/regions/',
-	destination: 'source/assets/scss/'
+	source: 'source/assets/scss/lost/',
+	destination: 'source/assets/scss/',
+	compiledCss: 'build/',
+	wpdestination: 'wordpress/wp-content/themes/twentysixteen-child/'
 };
 
 gulp.task('styles', function() {
@@ -29,4 +31,9 @@ gulp.task('minify', function() {
 		.pipe(gulp.dest('build'));
 });
 
-gulp.task('default', ['styles']);
+gulp.task('copytowp', function() {
+	return gulp.src('build/*.css')
+	.pipe(gulp.dest(paths.wpdestination));
+});
+
+gulp.task('default', ['styles','copytowp']);
