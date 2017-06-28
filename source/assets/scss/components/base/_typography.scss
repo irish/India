@@ -37,10 +37,11 @@ body{
 .staff,
 .price_card,
 button,
+.page-header,
 .widget{
 	@include headings {
 		font-family: 					_font(family-alt);
-		font-weight: 					_font(weight-extrabold);
+		font-weight: 					_font(weight);
 		letter-spacing: 				_font(kerning-alt);
 		line-height: 					_font(line-height);
 		text-transform: 				_font(header-text-transform);
@@ -55,6 +56,10 @@ button,
 			hyphens: 						none;
 		}
 	}
+}
+
+#intro-ultra{
+	text-shadow: 0 15px 31px #47525d;
 }
 
 #generic-statement{

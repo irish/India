@@ -6,7 +6,7 @@ a{
 	border-bottom: 					1px dashed;
 	text-shadow: 					none;
 	text-decoration: 				none;
-	transition:						.5s;
+	transition:						.2s;
 	&:hover{
 		border-bottom: 				1px solid;
 	}
@@ -23,6 +23,10 @@ a{
 			border-bottom: 			0px;
 		}	
 	}
+}
+
+.site-content a:hover{
+	background-color: transparentize(#FFFECA,0.8);
 }
 
 .post-navigation a:hover .post-title,

@@ -28,7 +28,7 @@
 /*END Modernizr*/
 
 // START CONSOLE MESSAGES
-console.log('App Version: India')
+console.log('Framework Version: India')
 var today = new Date()
 var curHr = today.getHours()
 if (curHr < 12) {
@@ -72,9 +72,9 @@ void 0!==c?e&&"set"in e&&void 0!==(d=e.set(a,c,b))?d:a[b]=c:e&&"get"in e&&null!=
 // 02.1: START CHECK IF JQUERY AND VERSION HAS LOADED
 (function() {
 if (window.jQuery) {
-	console.log("jQuery "+window.jQuery.fn.jquery+" is in this Castle");
+	console.log("jQuery "+window.jQuery.fn.jquery+" is in this castle");
 } else{
-	console.log("jQuery is in another Castle ¯\\_(ツ)_/¯")
+	console.log("jQuery is in another castle ¯\\_(ツ)_/¯")
 }
 }());
 // END CHECK IF JQUERY AND VERSION HAS LOADED

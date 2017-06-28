@@ -469,7 +469,7 @@ eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a
 
 
 // START CONSOLE MESSAGES
-console.log('App Version: India')
+console.log('Framework Version: India')
 var today = new Date()
 var curHr = today.getHours()
 if (curHr < 12) {
@@ -484,9 +484,9 @@ if (curHr < 12) {
 // START CHECK IF JQUERY AND VERSION HAS LOADED
 (function() {
 if (window.jQuery) {
-	console.log("jQuery "+window.jQuery.fn.jquery+" is in this Castle");
+	console.log("jQuery "+window.jQuery.fn.jquery+" is in this castle");
 } else{
-	console.log("jQuery is in another Castle ¯\\_(ツ)_/¯")
+	console.log("jQuery is in another castle ¯\\_(ツ)_/¯")
 }
 }());
 // END CHECK IF JQUERY AND VERSION HAS LOADED

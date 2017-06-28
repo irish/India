@@ -2449,6 +2449,33 @@
 		"sC": 0,
 		"tS": 0
 		},
+	"\/source\/assets\/js\/testing-footer.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/build\/assets\/js\/testing-footer.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/source\/assets\/js\/testing-header.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/build\/assets\/js\/testing-header.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/source\/assets\/js\/testing.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/build\/assets\/js\/testing.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
 	"\/source\/assets\/js\/wp.js": {
 		"ft": 64,
 		"mi": 1,
@@ -2598,6 +2625,19 @@
 		"oA": 1,
 		"oAP": "\/build\/assets\/scss\/components\/_list.css",
 		"oF": 1,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/source\/assets\/scss\/components\/_main.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/build\/assets\/_main.css",
+		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
@@ -4614,6 +4654,22 @@
 		"oF": 0,
 		"oS": 1
 		},
+	"\/source\/lynda.pug": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/build\/lynda.html",
+		"oF": 0,
+		"oS": 1
+		},
+	"\/source\/lynda\/02.pug": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/build\/lynda\/02.html",
+		"oF": 0,
+		"oS": 1
+		},
 	"\/source\/offline.pug": {
 		"cOD": 1,
 		"ft": 512,
@@ -4891,6 +4947,14 @@
 		"oA": 2,
 		"oAP": "\/build\/robots.txt",
 		"oF": 0
+		},
+	"\/source\/sandbox.pug": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/build\/sandbox.html",
+		"oF": 0,
+		"oS": 1
 		},
 	"\/source\/scratch.pug": {
 		"cOD": 1,

@@ -6,7 +6,7 @@ Future versions of this file will allow us to create compelete themes without ha
 
 //	Page Container(LOST)
 
-$theme-center:								1200px;
+$theme-center:								1000px;
 $theme-gutter:								1em;
 
 
@@ -215,22 +215,21 @@ $brand: (
 //page.scss
 $palette:(
 	activetheme: (	
-		color-1:							#000000,//body
-		color-0:							#FFFFFF,//body.custom-background, .site-header, .site-content, .site-footer
+		color-0:							#ffffff,	
+		color-1:							#ffffff,	
 
-		color-2:							#E74C3C,//a
+		color-2:							#4D6D89,
+		color-2.1:							#93B2B8,	
 		
-		color-3:							#46515c,//h	
-		color-4:							#696969,//p
+		color-3:							#47525d,	
+		color-4:							#777777,	
 
-		color-5:							#E74C3C,//branding	
+		color-5:							#F66B00,	
 		
-		color-6:							green,//nanobar
-
-		color-7:							#272822,
+		color-6:							#28A950,	
 
 		color-x:							#ff0000,		
-		color-y:							#800080		
+		color-y:							#800080			
 	),//twentysixteen
 
 	twentysixteen-dark: (	

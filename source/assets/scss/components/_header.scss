@@ -11,8 +11,13 @@ SITE HEADER
 	}
 }
 
+#site-header-menu li{
+	padding: 0 1em;
+}
+
 .menu-toggle {
 	color:				_palette(activetheme,color-x);
+	box-shadow:			0 1px 1px #dcdcdc;
 	&:hover{
 		cursor:			pointer;
 		color: 			darken(_palette(activetheme,color-4), 10%);
@@ -25,6 +30,11 @@ SITE HEADER
 }
 
 
-.site-header-menu.toggled-on{
-	background-color: rgba(255,255,255,0.98);
+.toggled-on .main-navigation{
+	background-color: rgba(255,255,255,0.97);
+	border-radius: 0px 0px 2px 2px;
+}
+
+.dropdown-toggle:hover{
+	cursor:pointer;
 }

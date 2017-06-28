@@ -26,7 +26,7 @@ Text Domain: laura
 @import 'libs/mixins';
 @import 'libs/normalize';
 @import 'libs/genericons';
-@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+// @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 @import 'libs/helpers';
 @import 'libs/syntax-highlighter';
 @import 'libs/imagehover';
@@ -44,7 +44,7 @@ Text Domain: laura
 // REGIONS
 @import 'components/header';
 @import 'components/headroom';
-//@import 'components/content';
+@import 'components/main';
 // @import 'components/footer';
 
 // COMPONENTS
@@ -140,14 +140,13 @@ nav#site-navigation a::before {
 }
 
 nav#site-navigation a:hover{
-	font-weight: bold;
+	// font-weight: bold;
 }
 
 nav#site-navigation a:hover::before {
 	height:4px;
 	opacity:1;
 }
-
 
 nav#site-navigation a:hover .subtitle {
 	opacity:0.6;

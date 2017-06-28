@@ -177,7 +177,7 @@ MAIN BLOCK CONTENT BOX MODEL PROPERTIES
 	#content{
 		margin-top:					($lost-gutter * 2.2);
 		&.fixed-above{
-			margin-top: 			($lost-gutter * 3);
+			margin-top: 			0;
 		}
 	}
 	.content-area{
