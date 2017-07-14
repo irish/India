@@ -59,7 +59,7 @@ button,
 }
 
 #intro-ultra{
-	text-shadow: 0 15px 31px #47525d;
+	// text-shadow: 0 15px 31px #47525d;
 }
 
 #generic-statement{
@@ -116,9 +116,6 @@ textarea{
 	}
 }
 
-.site-info{
-	text-transform: uppercase;
-}
 
 strong, b {
 	font-weight: 					_font(weight-bold);
@@ -189,4 +186,7 @@ sub,sup {
 	font-size: 						_font(size-small);
 	position: 						relative;
 	
+}
+u{
+	text-decoration-skip: ink;
 }

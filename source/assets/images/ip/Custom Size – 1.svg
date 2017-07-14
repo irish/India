@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1440 1076">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-Custom_Size_1);
+      }
+
+      .cls-2 {
+        fill: #ff9d00;
+        opacity: 0.898;
+      }
+
+      .cls-3 {
+        fill: #597993;
+      }
+
+      .cls-4 {
+        fill: none;
+        stroke: #000;
+        opacity: 0.042;
+      }
+
+      .cls-5 {
+        fill: #fff;
+      }
+    </style>
+    <clipPath id="clip-Custom_Size_1">
+      <rect width="1440" height="1076"/>
+    </clipPath>
+  </defs>
+  <g id="Custom_Size_1" data-name="Custom Size – 1" class="cls-1">
+    <rect class="cls-5" width="1440" height="1076"/>
+    <path id="path-25" class="cls-2" d="M15.957,622,0,621.8V458.381l38.97-175.675C53.839,289.779,68.926,297.4,84.9,305.467c105.653,53.369,237.114,119.774,480.213,119.774,125.51,0,216.546-51.964,312.927-106.978,120.248-68.637,256.539-146.431,491.517-146.431,85.861,0,161.048,19.424,223.475,57.731V551.334H15.961V622Z" transform="translate(-72.031 391.813)"/>
+    <path id="path-26" class="cls-3" d="M1440,348.621H0V42.031c3.213.032,6.5.126,9.768.279,69.777,3.32,95.46,25.589,118.121,45.237,19.82,17.187,36.936,32.031,78.186,32.388l.869.005c39.72,0,68.778-23.194,102.422-50.05C350.148,37.332,396.37.431,472.911,0l.747,0C530.687,0,589.03,36.887,656.584,79.6c95.707,60.516,214.815,135.829,380.392,135.829,145.74,0,252.863-59.137,317.063-108.747A542.339,542.339,0,0,0,1440,23.74V348.621Z" transform="translate(0 726.934)"/>
+    <line id="line-9" class="cls-4" y2="514.098" transform="translate(1255.983 561.456)"/>
+    <line id="line-9-2" data-name="line-9" class="cls-4" y2="514.098" transform="translate(1075.139 561.456)"/>
+    <line id="line-9-3" data-name="line-9" class="cls-4" y2="514.098" transform="translate(913.331 561.456)"/>
+  </g>
+</svg>

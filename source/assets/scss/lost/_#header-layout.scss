@@ -23,7 +23,7 @@ HEADER BLOCK BOX MODEL PROPERTIES
 }
 
 .site-branding a{
-	margin-left:					7px;
+	margin-left:					0;
 }
 #site-header-menu li{
 	padding-right:					$lost-gutter;
@@ -40,5 +40,5 @@ HEADER BLOCK BOX MODEL PROPERTIES
 
 .main-navigation{
 	top:							$lost-gutter;
-	position: relative;
+	position: 						relative;
 }

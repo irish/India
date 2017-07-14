@@ -38,3 +38,10 @@ SITE INTROS
 	background-size: cover;
 	background-position: center bottom;
 }
+
+.intro-paid-search{
+	background-image: url(assets/images/ip/sem-left.svg),url(assets/images/ip/sem-right.svg);
+	background-repeat: no-repeat,no-repeat;
+	background-size: 30% auto, 30% auto;
+	background-position: 0 60%, 100% 10%;
+}

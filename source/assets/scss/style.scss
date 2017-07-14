@@ -30,15 +30,20 @@ Text Domain: laura
 @import 'libs/helpers';
 @import 'libs/syntax-highlighter';
 @import 'libs/imagehover';
-// @import 'libs/cssgram/cssgram';
-// @import 'libs/gradients';
+@import 'libs/cssgram/cssgram';
+@import 'libs/gradients';
 @import 'libs/animsition';
 @import 'libs/simplelightbox';
+@import 'libs/owl/owl.carousel';
+@import 'libs/animate/base';
+@import 'libs/animate/fading_entrances/fadeIn';
+@import 'libs/animate/fading_exits/fadeOut';
 // BASE
 
 @import 'components/base/page';//ELEMENT COLORS
 @import 'components/base/typography';//TYPOGRAPHY DEFINITIONS
 @import 'components/base/links';
+@import 'components/base/post';
 
 
 // REGIONS
@@ -107,6 +112,8 @@ Text Domain: laura
 //@import 'hacks';
 
 
+
+
 nav#site-navigation a {
 	text-decoration: none;
 	color: #fff;
@@ -162,3 +169,32 @@ nav#site-navigation a:hover .subtitle {
 }
 
 @import 'components/scratch';
+
+@media screen and (min-width: 79em) {
+	.main-navigation li:hover > ul, 
+	.main-navigation li.focus > ul {
+		left: auto;
+		right: 1em;
+	}
+}
+
+#colophon .site-title img,
+.redwood{
+	margin-bottom: 19px;
+}
+
+.image-caption{
+	position: relative;
+	bottom:0;
+	background-color: rgba(0,0,0,0.5);
+	color:#fff;
+	text-align: center;
+	font-size: 1.5em; 
+	margin-top: -1.5em;
+}
+
+.image-description{
+	text-align: center;
+	font-style: italic;
+	margin-top: 0.5em;
+}

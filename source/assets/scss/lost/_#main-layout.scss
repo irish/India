@@ -167,21 +167,24 @@ MAIN BLOCK CONTENT BOX MODEL PROPERTIES
 }
 
 #content{
-		margin-top:					($lost-gutter * 2.2);
+		margin-top:					($lost-gutter * 2.8);
 		&.fixed-above{
-			margin-top: 			($lost-gutter * 2.33);
+			margin-top: 			0;
 		}
 	}
 
 @include MQ(MW) {
 	#content{
-		margin-top:					($lost-gutter * 2.2);
+		margin-top:					($lost-gutter * 3.5);
 		&.fixed-above{
-			margin-top: 			0;
+			margin-top:				0;
 		}
 	}
 	.content-area{
 		lost-column:				3/4;
+	}
+	.full-width{
+		lost-column:				1/1;
 	}
 	.sidebar{
 		lost-column:				1/4;
@@ -191,6 +194,9 @@ MAIN BLOCK CONTENT BOX MODEL PROPERTIES
 @include MQ(LW) {
 	.content-area{
 		lost-column:				3/4;
+	}
+	.full-width{
+		lost-column:				1/1;
 	}
 	.sidebar{
 		lost-column:				1/4;

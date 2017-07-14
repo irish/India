@@ -10,10 +10,10 @@ THIS FILE DEFINES BOX MODEL PROPERTIES: WIDTH, HEIGHT, MARGIN, PADDING
 /* ==========================================================================
 FOOTER BLOCK BOX MODEL PROPERTIES
 ========================================================================== */	
-
 @lost gutter 2em;
 
 #colophon{
+	background-color: #000;
 	padding: 0;
 	.main-navigation li a{
 		color:#fff;
@@ -28,7 +28,7 @@ FOOTER BLOCK BOX MODEL PROPERTIES
 			}
 		}
 	}
-	.widget-column{
+	.widget{
 		lost-column:1/2;
 	}
 }

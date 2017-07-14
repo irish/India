@@ -1,0 +1,19 @@
+/* ==========================================================================
+THIS FILE SHOULD CONTAIN THE FOLLOWING RULES FOR POSTS
+========================================================================== */
+
+.post-thumbnail img{
+	transition:filter 1s linear 0s;
+}
+.post-thumbnail img:hover{
+	filter:none;
+}
+
+.nav-previous a, .nav-next a{
+	&:hover{
+		border-bottom: none;
+	}
+}
+.post-navigation .post-title{
+	font-weight: 400;
+}

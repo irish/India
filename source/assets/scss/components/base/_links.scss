@@ -3,13 +3,11 @@ LINK COLOR
 ========================================================================== */		
 
 a{
-	border-bottom: 					1px dashed;
 	text-shadow: 					none;
-	text-decoration: 				none;
+	text-decoration-skip: 			ink;
+	text-decoration: 				underline;
 	transition:						.2s;
-	&:hover{
-		border-bottom: 				1px solid;
-	}
+	&:hover{}
 
 	&:active{					
 		border-bottom: 				1px dashed;

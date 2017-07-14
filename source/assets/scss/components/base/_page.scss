@@ -31,7 +31,8 @@ THIS FILE SHOULD CONTAIN THE FOLLOWING RULES
 	width:							device-width;
 }
 
-::selection {//TODO
+::selection {
+	background-color:#FDF9C0;
 }
 
 // MSIE: Prevents scrollbar from overlapping content.
@@ -277,6 +278,10 @@ a{
 .site-branding .site-title a,
 .entry-title a {
 	color: 							_palette(activetheme,color-2);
+}
+
+.site-branding a p{
+	color: 							_palette(activetheme,color-5);
 }
 
 mark,
